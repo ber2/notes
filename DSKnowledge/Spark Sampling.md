@@ -1,0 +1,1 @@
+This is the type of [[Data Sampling]] that applies to Spark DataFrames and Datasets.

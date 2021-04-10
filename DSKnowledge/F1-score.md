@@ -1,0 +1,1 @@
+This is a [[scoring metric]] for the evaluation of [[binary classifier]]s.

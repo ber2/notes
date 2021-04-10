@@ -1,0 +1,3 @@
+---
+aliases: [gridsearch, grid-search]
+---
