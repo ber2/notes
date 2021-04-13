@@ -88,7 +88,7 @@ their applications.
 
 A simple model for [[Machine Translation]] is introduced as a linear transformation between word embeddings.
 
-[[Locality-sensitive Hashing]] is also introduced as a way to encode documents and enabling quick searches by looking up hash tables.
+[[LSH]] is also introduced as a way to encode documents and enabling quick searches by looking up hash tables.
 
 ### Programming assignment
 

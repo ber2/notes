@@ -1,5 +1,5 @@
 This course is based on the study of probability models for NLP tasks such as [[autocorrection]] or
-[[part-of-speech tagging]]. Its highlight is the introduction of [[Hidden Markov Models]] and the discussion
+[[POS tagging]]. Its highlight is the introduction of [[Hidden Markov Models]] and the discussion
 of neural word embeddings.
 
 ## Week 1. Autocorrect
@@ -23,7 +23,7 @@ The problem is to code an autocorrect system, based on probabilities around the 
 ## Week 2. Part-of-speech tagging and Hidden Markov Models
 
 The main subject of the week is [[Hidden Markov Models]]. They are introduced in relation to the problem
-of [[part-of-speech tagging]].
+of [[POS tagging]].
 
 In order to find the sequence of hidden states with maximum probability, the [[Viterbi Algorithm]] is discussed.
 
@@ -63,7 +63,7 @@ Build an autocomplete system based on n-grams and evaluate it using the perplexi
 
 ## Week 4. Word embeddings with neural networks
 
-The [[Word2Vec]] model with [[continuous bag-of-words]] is introduced and discussed.
+The [[Word2Vec]] model with [[CBOW]] is introduced and discussed.
 
 Several notebooks are used as helpers. Remarkably, no fancy libraries ([[TensorFlow]], [[Keras]]) are used;
 the algorithm (and the [[gradient descent]]) are coded straightaway in [[Numpy]].
@@ -84,5 +84,5 @@ the algorithm (and the [[gradient descent]]) are coded straightaway in [[Numpy]]
 
 - [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/2-probabilistic-models/week4-word-embeddings.ipynb)
 
-Using only [[Numpy]], code a [[continuous bag-of-words|CBOW]] model, train it and extract [[word embeddings]] out of it.
+Using only [[Numpy]], code a [[CBOW|CBOW]] model, train it and extract [[word embeddings]] out of it.
 

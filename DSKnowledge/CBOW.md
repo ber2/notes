@@ -1,5 +1,5 @@
 ---
-aliases: [CBOW]
+aliases: [Continuous Bag-of-Words]
 ---
 
 The __continuous bag-of-words__ is one of the methods available to obtain [[word vectors]] in the [[Word2Vec]] model.

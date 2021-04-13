@@ -6,7 +6,7 @@ In this strand of work we describe how we have used Natural Language Processing 
 
 Keyword-based audiences are built by specifying a list of keywords and identifying users who have browsed on websites related to those keywords. They are a common method to deliver campaigns at scale in AdTech, since they allow the identification of segments of users having a behaviour that expresses a common interest.
 
-At [[Hybrid Theory]], we acquire and process large volumes of data through our partners. We build keyword-based audiences using an in-house developed product, [[Custom Audiences]], which is available in our Ad trading [[Platform]].
+At [[HT]], we acquire and process large volumes of data through our partners. We build keyword-based audiences using an in-house developed product, [[Custom Audiences]], which is available in our Ad trading [[Platform]].
 
 In this way, traders can define an audience in the Platform by describing a list of keywords. The URLs of recent events are then processed in order to verify whether they contain any of the given keywords. Users having visited any of these URLs are then put in the segment, so that they may be targeted in a campaign.
 
@@ -30,7 +30,7 @@ If we were to manually decide whether the given URL is relevant, we would access
 
 We want to enhance keyword extraction methods so that we can activate more URLs when constructing our audiences.
 
-The approach outlined above, consisting in checking the contents of websites associated to URLs, may be automatized by using [[Natural Language Processing]] (NLP) techniques. The steps to replicate the above procedure in an automated fashion would involve a script that:
+The approach outlined above, consisting in checking the contents of websites associated to URLs, may be automatized by using [[NLP]] (NLP) techniques. The steps to replicate the above procedure in an automated fashion would involve a script that:
 
 1. Sends a request to the URL.
 2. Extracts HTML code from the response body.
@@ -41,7 +41,7 @@ More generally, we set out to study further methods to associate a list of keywo
 
 ### Network transfer
 
-The range of distinct URLs that we observe in a given day oscillates in the 70 million range. The main engineering problem to solve when working towards an automatized NLP solution is how to perform the URL lookups at scale for this volume.
+The range of distinct URLs that we observe in a 24h period oscillates in the 70 million range. The main engineering problem to solve when working towards an automatized NLP solution is how to perform the URL lookups at scale for this volume.
 
 Each URL lookup involves establishing an HTTP connection and, when performing lookups sequentially, the vast majority of CPU time is spent waiting for responses. As a matter of fact, this is a classic example of a problem which benefits enormously from [[parallelization]] (more precisely, [[concurrent]], [[asynchronous]] parallelization).
 
@@ -67,7 +67,7 @@ In this case, we will only need to validate whether this library performs well u
 
 ### Keyword extraction
 
-The procedure of extracting keywords from a given text document is a well-known [[Natural Language Processing|NLP]] text summarization task. There are many open source implementations available in well-known, easily accessible libraries such as [[NLTK]], [[SpaCy]], [[Gensim]] or [[Stanza]].
+The procedure of extracting keywords from a given text document is a well-known [[NLP|NLP]] text summarization task. There are many open source implementations available in well-known, easily accessible libraries such as [[NLTK]], [[SpaCy]], [[Gensim]] or [[Stanza]].
 
 To name but a couple options, [[TextRank]] and [[RAKE]] are two well-known keyword extraction algorithms.
 
@@ -75,15 +75,26 @@ In this case, our problem is to validate the performance of these algorithms in 
 
 ### Other NLP techniques 
 
-There are further [[Natural Language Processing|NLP]] techniques that could be applied in order to extract information of a better quality out of website contents. In particular:
+There are further [[NLP]] techniques that could be applied in order to extract information of a better quality out of website contents. In particular:
 
 - [[Sentiment Analysis]] methods could be used to detect whether a keyword features in a URL positively or negatively. This would allow us to discern between websites expressing favourable or contrary opinions about a given subject.
 
-- [[Named Entity Recognition]] methods could be applied to detect URLs related to specific people, places, etc.
+- [[NER]] methods could be applied to detect URLs related to specific people, places, etc.
 
-Obtaining the contents of a URL involves sending an HTTP request and then processing the response. After the response is obtained, the HTML code needs to be cleaned into readable text, which can be then used for NLP purposes. And the challenge is doing this at scale, for several million URLs at once.
 
 ## Advances and Progress Made
+
+The consideration of the problems described above lead us to develop the proposal for a new product, called [[Scraper]].
+
+### Proof-of-concept
+
+### Comparison of Keyword Extraction techniques
+
+### Audience Quality
+
+### The Scraper as a product
+
+In here, we refer to [[Scraper]]
 
 - Keyword Extraction
 - Scraping

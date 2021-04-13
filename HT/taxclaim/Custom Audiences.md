@@ -1,1 +1,1 @@
-Custom Audiences is a [[Hybrid Theory]] product that creates audiences based on URL keywords.
+Custom Audiences is a [[HT]] product that creates audiences based on URL keywords.

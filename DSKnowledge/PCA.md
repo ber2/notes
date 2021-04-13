@@ -1,0 +1,3 @@
+---
+aliases: [Principal Component Analysis]
+---

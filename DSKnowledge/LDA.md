@@ -1,0 +1,3 @@
+---
+aliases: [Latent Dirichlet Allocation]
+---

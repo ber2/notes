@@ -4,78 +4,75 @@
 
 The libraries [[Trax]] and [[JAX]] are introduced.
 
-
 There are three auxiliary notebooks available:
 
-- [Notebook](./week1-trax-intro-demo.ipynb): introduction to `trax`.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week1-trax-intro-demo.ipynb): introduction to [[Trax]].
 
-- [Notebook](./week1-class-inheritance-demo.ipynb): introduction to python OOP (class inheritance, extending classes, etc).
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week1-class-inheritance-demo.ipynb): introduction to [[OOP]] in [[Python]] (class inheritance, extending classes, etc).
 
-- [Notebook](./week1-data-generators-demo.ipynb): how to build generators using `yield`.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week1-data-generators-demo.ipynb): how to build generators using `yield`.
 
 ### Programming assignment
 
-- [Notebook](./week1-sentiment-with-NN.ipynb)
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week1-sentiment-with-NN.ipynb)
 
 Serves as a gentle introduction to Trax by training a small neural network for sentiment analysis: it builds a binary classifier for analyzing tweets as either positive or negative.
 
 ## Week 2. Natural Language Processing with Sequence Models
 
-RNNs are discussed with an emphasis on GRUs in order to build sequential models.
-The assignment consists of using such a model in order to create a next-word generator trained on Shakespeare data.
+[[RNN]]s are discussed with an emphasis on [[GRU]]s in order to build sequential models.
+The assignment consists of using such a model in order to create a [[next-word generator]] trained on Shakespeare data.
 
 There are a number of auxiliary notebooks demonstrating basic aspects:
 
-- [Notebook](./week2-hidden-state-activation-demo.ipynb): hidden state activation.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week2-hidden-state-activation-demo.ipynb): hidden state activation.
 
-- [Notebook](./week2-perplexity-with-jax-demo.ipynb): JAX as a fast numpy replacement and perplexity computations.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week2-perplexity-with-jax-demo.ipynb): [[JAX]] as a fast [[Numpy]] replacement and [[Perplexity]] computations.
 
-- [Notebook](./week2-rnn-gru-demo.ipynb): forward propagation on RNNs.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week2-rnn-gru-demo.ipynb): [[forward propagation]] on [[RNN]]s.
 
-- [Notebook](./week2-gru-in-trax-demo.ipynb): a GRU model on Trax.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week2-gru-in-trax-demo.ipynb): a [[GRU]] model on [[Trax]].
 
 ### Programming assignment
 
-- [Notebook](./week2-deep-ngrams.ipynb)
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week2-deep-ngrams.ipynb)
 
-Implementation of an end-to-end RNN model using Trax and a GRU.
-The model is used to build a next-word generator trained on a Shakespeare corpus.
+Implementation of an end-to-end [[RNN]] model using [[Trax]] and a [[GRU]].
+The model is used to build a [[next-word generator]] trained on a Shakespeare [[corpus]].
 
 ## Week 3. LSTMs and Named Entity Recognition
 
-Long Short-Term Memory (LSTM) models are introduced and discussed.
-They are applied to the practical problem of Named Entity Recognition (NER).
+[[LSTM|Long-Term Short Memory]] (LSTM) models are introduced and discussed.
+They are applied to the practical problem of [[NER|Named Entity Recognition]] (NER).
 
 There are a few supporting materials.
 
-- [Notebook](./week3-vanishing-gradients-demo.ipynb): on vanishing gradients.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week3-vanishing-gradients-demo.ipynb): on the [[vanishing gradient]] problem.
 
-- [Blog post](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/): Introduction to gradient descent.
+- [Blog post](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/): Introduction to [[gradient descent]].
 
-- [Blog post](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): Understanding LSTMs.
+- [Blog post](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): Understanding [[LSTM]]s.
 
 ### Programming assignment
 
-- [Notebook](./week3-lstm-ner.ipynb)
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week3-lstm-ner.ipynb)
 
-The architecture of a LSTM neural network is designed and the model is trained and tested on a NER task.
+The architecture of a [[LSTM]] [[Neural Network]] is designed and the model is trained and tested on a [[NER]] task.
 
 ## Week 4. Siamese networks
 
-Siamese networks are introduced.
-These are models built using two identical networks that are eventually merged together.
-Then, they are put to use for a task of detecting duplicate questions.
+[[Siamese network]]s are introduced. Then, they are put to use for a task of [[Duplicate detection]] in a set of questions.
 
 There are a couple of supporting notebooks.
 
-- [Notebook](./week4-siamese-trax-demo.ipynb): Creating a Siamese model using Trax.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week4-siamese-trax-demo.ipynb): Creating a [[Siamese network]] model using [[Trax]].
 
-- [Notebook](./week4-triplet-loss-demo.ipynb): About the triplet loss metric.
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week4-triplet-loss-demo.ipynb): About the [[triplet loss metric]].
 
-- [Notebook](./week4-siamese-evaluation-demo.ipynb): Evaluation of Siamese models. 
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week4-siamese-evaluation-demo.ipynb): Evaluation of [[Siamese network]] models. 
 
 ### Programming assignment
 
-- [Notebook](./week4-question-duplicates.ipynb)
+- [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/3-sequence-models/week4-question-duplicates.ipynb)
 
-On a the detection of question duplicates using a Siamese network on Trax.
+On the [[Duplicate detection]] in a set of questions using a [[Siamese network]] on [[Trax]].

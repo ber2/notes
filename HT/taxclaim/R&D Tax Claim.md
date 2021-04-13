@@ -2,7 +2,7 @@ UK Legislation allows to claim part of a company revenue taxes if they can be re
 
 A guide with the rules might be found [here](https://drive.google.com/file/d/1teAMKfTSpd827mpZvf7xKqdoA7m2jJ7h/view?usp=sharing).
 
-All [[Hybrid Theory]] documents related to this matter are in this [google drive folder](https://drive.google.com/drive/folders/1bGFLCtt_icJQDfU6m77ihgrC1SKplbE3?usp=sharing).
+All [[HT]] documents related to this matter are in this [google drive folder](https://drive.google.com/drive/folders/1bGFLCtt_icJQDfU6m77ihgrC1SKplbE3?usp=sharing).
 
 ## How to show that your project is R&D within the tax definition
 

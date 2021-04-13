@@ -1,8 +1,11 @@
+In this strand of work we describe
 
-## Matter
+## State of affairs
 
-## Advances
+## Problems and uncertainties
 
-## Encountered uncertainties
+## Advances and Progress Made
 
-## Proposed solutions
+## Future work
+
+

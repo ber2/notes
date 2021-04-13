@@ -1,5 +1,5 @@
 ---
-aliases: [TDD]
+aliases: [Test-Driven Development]
 ---
 
 Test-Driven Development (TDD).

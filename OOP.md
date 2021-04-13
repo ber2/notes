@@ -1,0 +1,3 @@
+---
+aliases: [Object-oriented Programming]
+---

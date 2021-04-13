@@ -1,1 +1,1 @@
-SimHash is a type of [[Locality-sensitive Hashing]] which [[Google]] are using for the implementation of the [[FLoC]] proposal in [[Chrome]].
+SimHash is a type of [[LSH]] which [[Google]] are using for the implementation of the [[FLoC]] proposal in [[Chrome]].

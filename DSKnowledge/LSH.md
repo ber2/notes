@@ -1,0 +1,3 @@
+---
+aliases: [Locality-Sensitive Hashing]
+---

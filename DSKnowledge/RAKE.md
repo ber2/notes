@@ -2,7 +2,7 @@
 aliases: [Rapid Extraction of Keywords]
 ---
 
-__RAKE__ is an [[Natural Language Processing|NLP]] algorithm that, given a document, computes a list of summarizing sentences.
+__RAKE__ is an [[NLP|NLP]] algorithm that, given a document, computes a list of summarizing sentences.
 
 ### Implementations
 

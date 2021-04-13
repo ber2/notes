@@ -1,0 +1,1 @@
+__Siamese networks__ are a type of [[Neural Network]] architecture consisting of two identical networks that are trained in parallel and eventually merged together.

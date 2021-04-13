@@ -10,7 +10,7 @@ The take-away is related to how the authors perform the [[feature preprocessing]
 
 - Browsing category (o bé ja la tenen, o fan [[Tf-Idf]] + [[Naive Bayes]] sobre el contingut amb un classificador ja entrenat)
     
-- Topic modelling dels continguts ([[Latent Dirichlet Allocation|LDA]])
+- Topic modelling dels continguts ([[LDA|LDA]])
     
 - Time features (només hora però en algun lloc també he vist que hi posen el dia de la setmana)
     

@@ -1,20 +1,20 @@
 # Week 1: Neural Machine Translation with Attention
 
-The goal in this week is to implement a Neural Machine Translator using a seq2seq model (training simultaneously of two parallel networks, then matching their output).
+The goal in this week is to implement a [[Machine Translation]] [[Neural Network]] using a [[seq2seq]] model.
 
-Attention is used as a way to keep track of previous words in the input data, and __teacher forcing__ is used as a means to speed-up training.
+[[Attention]] is used as a way to keep track of previous words in the input data, and [[teacher forcing]] is used as a means to speed-up training.
 
-The BLEU score and ROUGE metric are discussed for evaluation.
+The [[BLEU score]] and [[ROUGE metric]] are discussed for evaluation.
 
 - [Post](https://towardsdatascience.com/what-is-teacher-forcing-3da6217fed1c): What is teacher forcing?
 
-- [Notebook](./week1-stack-syntax-in-trax-demo.ipynb): about stack syntax in the `trax` library.
+- [Notebook](https://github.com/ber2/coursera/blob/feature/nlp-course-4/nlp-specialization/4-attention-models/week1-stack-syntax-in-trax-demo.ipynb): about stack syntax in the [[Trax]] library.
 
-- [Notebook](./week1-bleu-demo.ipynb): about calculating BLEU scores.
+- [Notebook](https://github.com/ber2/coursera/blob/feature/nlp-course-4/nlp-specialization/4-attention-models/week1-bleu-demo.ipynb): about calculating [[BLEU score]]s.
 
 ### Programming assignment
 
-- [Notebook](./week1-nmt-with-attention.ipynb)
+- [Notebook](https://github.com/ber2/coursera/blob/feature/nlp-course-4/nlp-specialization/4-attention-models/week1-nmt-with-attention.ipynb)
 
 It codes a Neural Machine Translator using a seq2seq model (made up of LSTMs with attention), and teacher forcing.
 

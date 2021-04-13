@@ -1,1 +1,1 @@
-Reinforcement Learning is the part of [[Machine Learning]] that deals with algorithms capable of updating themselves from rewards.
+Reinforcement Learning is the part of [[ML]] that deals with algorithms capable of updating themselves from rewards.
