@@ -1,0 +1,1 @@
+__Python__ is a programming language which falls under an [[OOP]] paradigm with [[Dynamic Type]].

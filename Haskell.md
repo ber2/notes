@@ -1,0 +1,1 @@
+__Haskell__ is a programming language which very stricly follows the [[Strong Type]], [[FP]] paradigm.

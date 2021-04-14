@@ -1,4 +1,4 @@
-# Week 1: Neural Machine Translation with Attention
+## Week 1: Neural Machine Translation with Attention
 
 The goal in this week is to implement a [[Machine Translation]] [[Neural Network]] using a [[seq2seq]] model.
 
@@ -21,8 +21,9 @@ It codes a Neural Machine Translator using a seq2seq model (made up of LSTMs wit
 - [Post](https://medium.com/@rashmi.margani/how-to-speed-up-the-training-of-the-sequence-model-using-bucketing-techniques-9e302b0fd976) discussing **bucketing**: how to efficiently batch sequence data according to sentence length.
 
 
-# Week 2: Attention and text summarization
+## Week 2: Attention and text summarization
 
+__WIP__.
 
 ### References
 
