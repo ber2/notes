@@ -35,3 +35,7 @@ __WIP__.
 - The Illustrated GPT-2 (Visualizing Transformer Language Models). [post](http://jalammar.github.io/illustrated-gpt2/)
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv](https://arxiv.org/abs/1810.04805)
 - How GPT3 Works - Visualizations and Animations. [post](http://jalammar.github.io/how-gpt3-works-visualizations-animations/)
+
+## Week 3: Transfer Learning, T5, BERT
+
+This week revolves around the concept of using [[Transfer Learning]]. [[Self-supervised task]]s are also discussed.

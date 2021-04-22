@@ -26,6 +26,10 @@ In particular, we wanted to know what lessons could be extracted from the early 
 
 The volume of data we process oscillates very much along time, for reasons that are alien to us, and beyond our control. Therefore, extracting a reliable signal from these events is a challenging task that cannot be limited to performing counts of numbers of users having exhibited a particular website.
 
+### Existing available alternatives
+
+We discarded looking at alternatives because of the need to provide a fast response was urgent.
+
 ## Advances and Progress Made
 
 ### Data democratization effort
@@ -41,7 +45,7 @@ We adopted [[Databricks]] as a reporting platform for the purposes of our respon
 
 The noise problem in our input data called for a rigorous approach. Since we focused in the reporting of the evolution of the number of occurrences of certain terms along time, we borrowed from the existing corpus of knowledge in the area of [[Time Series analysis]].
 
-Our research exposed that daily aggregations of our data form time series which are well behaved when decomposed using a [[Seasonal Decomposition]] approach. More precisely, using an [[Additive Time Series Decomposition]], we very quickly established that [[period]] of 7 days, following the obvious weekly pattern, allowed to extract a robust [[trend]].
+Our research exposed that daily aggregations of our data form time series which are well behaved when decomposed using a [[Seasonal Decomposition]] approach. More precisely, using an [[Seasonal Decomposition]], we very quickly established that [[period]] of 7 days, following the obvious weekly pattern, allowed to extract a robust [[trend]].
 
 These trends, which may be understood as a tidy representation of the fluctuation of the time series being studied, are still noisy and difficult to compare to each other. We found out that [[Indexing]] by centering data around a given date, giving that date the value 100 and scaling the rest of the time series in proportion was stable enough for periods of time between 30 and 45 days; this was sufficient for our purposes.
 
@@ -67,4 +71,6 @@ Main page: [[Keyword Trends]]
 
 ## Future work
 
+After delivery of the [[Keyword Trends]] product, we are working on enhancing it and automatizing the display of trends in our own [[Platform]].
 
+We are also currently working in the direction of producing a [[Dashboard]] showing keyword-based reports. In this way, our Sales Teams will unlock our excellent reporting capabilities and exhibit them to prospective customers, so that we can engage in a data-driven narrative prior to closing a deal and acquiring [[first-party browsing data]].
