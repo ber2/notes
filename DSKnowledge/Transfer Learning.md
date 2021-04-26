@@ -8,7 +8,7 @@ There are two approaches to transfer learning:
 
 Pre-train a model and use the learned weights of that model as features to train a new model.
 
-[[Word embeddings]] are a very good example of this, as word vectors are the learned weights from another task such as the [[CBOW]]; predicting the missing word in a sentence.
+[[Word Embeddings]] are a very good example of this, as word vectors are the learned weights from another task such as the [[CBOW]]; predicting the missing word in a sentence.
 
 Many [[Sequence models]] in [[NLP]] use an embedding layer as a way to encode text into features.
 

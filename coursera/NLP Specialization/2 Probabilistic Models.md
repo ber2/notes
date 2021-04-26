@@ -84,5 +84,5 @@ the algorithm (and the [[gradient descent]]) are coded straightaway in [[Numpy]]
 
 - [Notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/2-probabilistic-models/week4-word-embeddings.ipynb)
 
-Using only [[Numpy]], code a [[CBOW|CBOW]] model, train it and extract [[word embeddings]] out of it.
+Using only [[Numpy]], code a [[CBOW|CBOW]] model, train it and extract [[Word Embeddings]] out of it.
 

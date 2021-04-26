@@ -39,3 +39,11 @@ __WIP__.
 ## Week 3: Transfer Learning, T5, BERT
 
 This week revolves around the concept of using [[Transfer Learning]]. [[Self-supervised task]]s are also discussed.
+
+There is an initial discussion of the history of these models and covering, in chronological order, [[ELMo]], [[GPT]], [[BERT]] and [[T5]]. The latter two are then discussed in detail.
+
+Then, we focus on the architecture of the [[BERT]] model first, and then the [[T5]] model.
+
+Then the [[GLUE Benchmark]] is introduced and discussed.
+
+Finally, these concepts are put into practice by looking at a Question Answering task.
