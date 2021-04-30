@@ -25,16 +25,6 @@ It codes a Neural Machine Translator using a seq2seq model (made up of LSTMs wit
 
 __WIP__.
 
-### References
-
-- Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. [arXiv](https://arxiv.org/abs/1910.10683)
-- Reformer: The Efficient Transformer. [arXiv](https://arxiv.org/abs/2001.04451)
-- Attention Is All You Need. [arXiv](https://arxiv.org/abs/1706.03762)
-- Deep contextualized word representations. [arXiv](https://arxiv.org/abs/1802.05365)
-- The Illustrated Transformer. [post](http://jalammar.github.io/illustrated-transformer/)
-- The Illustrated GPT-2 (Visualizing Transformer Language Models). [post](http://jalammar.github.io/illustrated-gpt2/)
-- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv](https://arxiv.org/abs/1810.04805)
-- How GPT3 Works - Visualizations and Animations. [post](http://jalammar.github.io/how-gpt3-works-visualizations-animations/)
 
 ## Week 3: Transfer Learning, T5, BERT
 
@@ -47,3 +37,17 @@ Then, we focus on the architecture of the [[BERT]] model first, and then the [[T
 Then the [[GLUE Benchmark]] is introduced and discussed.
 
 Finally, these concepts are put into practice by looking at a Question Answering task.
+
+There is an auxiliary notebook explaining the enhanced [[Tokenization]] methods employed by algorithms such as [[BERT]]. These methods are [[SentencePiece]] and [[BPE]]
+
+
+## References
+
+- Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. [arXiv](https://arxiv.org/abs/1910.10683)
+- Reformer: The Efficient Transformer. [arXiv](https://arxiv.org/abs/2001.04451)
+- Attention Is All You Need. [arXiv](https://arxiv.org/abs/1706.03762)
+- Deep contextualized word representations. [arXiv](https://arxiv.org/abs/1802.05365)
+- The Illustrated Transformer. [post](http://jalammar.github.io/illustrated-transformer/)
+- The Illustrated GPT-2 (Visualizing Transformer Language Models). [post](http://jalammar.github.io/illustrated-gpt2/)
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv](https://arxiv.org/abs/1810.04805)
+- How GPT3 Works - Visualizations and Animations. [post](http://jalammar.github.io/how-gpt3-works-visualizations-animations/)

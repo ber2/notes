@@ -1,0 +1,1 @@
+__Tokenization__ is a [[feature preprocessing]] step in [[NLP]] that allows to encode text data (strings) into numeric values by breaking it into units and mapping those individual units to fixed values.
