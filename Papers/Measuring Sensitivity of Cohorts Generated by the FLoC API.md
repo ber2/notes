@@ -1,0 +1,36 @@
+This is a paper from the [[Google]] Research and Chrome teams about the sensitivity of the [[FLoC]] cohorts.
+
+## Summary
+
+The main point is to study the vulnerability of k-anonimity (the _hiding in the pack_ feature of FLoC) to homogeneity attacks. That is: target users in a FLoC because they share a sensitive attribute (think, for example, of gender or sexual orientation).
+
+There is a second threat that is not under study in this paper: an attacker attempting to guess the browsing history based on the details of how cohorts are created.
+
+The sensitive categories are those defined by Google Ads [here](https://support.google.com/adspolicy/answer/143465?hl=en).
+
+In order to ensure that no cohort is made up of users that have visited a given sensitive category at a higher rate than the rest of the population.
+
+__Definition__. A cohort assignment is said to satisfy _$t$-closeness_ if it is $k$-anonymous and for every sensitive category, the distribution of users having visited the category has distance at most $t$ from the general distribution.
+
+__Definition__. Given a sensitive category $X$, denote $\mathrm{PopFreq}(X)$ for the fraction of Chrome users that visited the category $X$.
+
+__Definition__. Given a cohort $C$ and a category $X$, denote $\mathrm{CohFreq}(X)$ for the fraction of users in $C$ that visited category $X$.
+
+__Definition__ Given a sensitive category $X$ and a cohort $C$, the _sensitivity gap_ of $C$ with respect to $X$ is
+$$
+\mathrm{S}(X, C) = \mathrm{CohFreq}(X, C) - \mathrm{PopFreq}(X).
+$$
+
+__Definition__. We say that category $Y$ is _the anomalous category_ for a cohort $C$ if it maximizes the sensitivity gap. In other words,
+$$
+Y = \mathrm{argmax}_X \mathrm{S}(X, C).
+$$
+Let us denote it by $X_C$.
+
+__Definition__. Given a threshold $t > 0$ and a cohort $C$, we say that $C$ is _sensitive_ if $\mathrm{S}(X_C, C) > t$.
+
+By computing the anomalous category for every cohort and the sensitivity gap, it is possible to ellaborate a list of sensitive cohorts. This is done by imposing a threshold value for $t$. The heuristics detailed in the paper show that $t \in [0.05, 0.1]$ is a good place to look for a good privacy vs. utility trade-off. For the first trial, $t = 0.1$ has been chosen; this blocks around 4% of cohorts.
+
+## Links
+
+- Original paper. [pdf](https://docs.google.com/a/google.com/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo1Mzg4MjYzOWI2MzU2NDgw)
