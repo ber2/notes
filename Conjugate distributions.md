@@ -1,14 +1,20 @@
-__Conjugate distributions__ is a method to avoid estimating the contribution of the evidence $p(X)$ in the Bayes formula.
+In [[Bayesian]] probability, __conjugate distributions__ are an algebraic convenience that allow expressing the posterior in terms of the prior and the likelihood without the need for numerical integration.
+
+Consider the Bayes formula relating the posterior distribution, the likelihood and the prior distribution, normalized by the probability of the data:
+$$
+p(\theta \vert X) = \frac{p(X \vert \theta) p(\theta)}{p(X)}.
+$$
+Normally, the likelihood $p(X \vert \theta)$ is fixed by the model, the prior $p(\theta)$ is our choice and the evidence $p(X)$ is fixed by data.
+
+__Definition__. The prior and the posterior are said to be _conjugates_ if they both belong to the same probability distribution family.
+
+is a method to avoid estimating the contribution of the evidence $p(X)$ in the Bayes formula.
 
 In the Bayes formula,
-$$
-p(\theta \vert X) = \frac{p(X \vert \theta) p(\theta)}{p(X)},
-$$
-the likelihood $p(X \vert \theta)$ is fixed by the model, the prior $p(\theta)$ is our choice and the evidence $p(X)$ is fixed by data.
 
 The idea is to select $\theta$ in such a way that it becomes easy to compute the posterior.
 
-__Definition__. The prior and the posterior distributions are said to be _conjugate_ if they both lie in the same family of distributions.
+__Definition__. The prior and the posterior distributions are said to be _conjugate_ if they both lie in the same family of distributions. In such case, we also say that the prior is a _conjugate prior_ to the likelihood function.
 
 
 ## Examples
