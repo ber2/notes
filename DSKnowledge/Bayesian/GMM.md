@@ -57,3 +57,11 @@ $$
 p(x \mid \theta) = \sum_{c=1}^3 p(x \mid t = c, \theta) p(t=c \mid \theta),
 $$
 so we recover the original description of the probability.
+
+### Expectation maximization
+
+On one hand, we need Gaussian parameters to estimate sources and, on the other hand, we need sources to estimate the Gaussian parameters.
+
+So, an idea to compute the above is to initialize parameters at random and then update them to fit the points assigned to them until convergence.
+
+This is much faster than [[Stochastic Gradient Descent]], but it suffers from local maxima.

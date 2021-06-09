@@ -6,7 +6,7 @@ After a short, one-paragraph introduction, there are sections as summarized belo
 
 ## Existing industry technology
 
-Comparison of simple decision trees against [[Multi-Armed Bandit]] approaches.
+Comparison of simple decision trees against [[MAB|Multi-Armed Bandit]] approaches.
 
 Criteo SA have [[MAB]]s, and probably so do Facebook.
 
@@ -25,7 +25,7 @@ Details the proposal of adding the Brain infrastructure on top of the existing A
 
 Delivery of MVP and optimization.
 
-- Delivery of model-free model using non-contextual [[Multi-Armed Bandit|MAB]].
+- Delivery of model-free model using non-contextual [[MAB|Multi-Armed Bandit]]s.
 - Moving from unified model to a model per campaign.
 
 ### 2019
