@@ -51,6 +51,10 @@ $$
 p(\theta \vert X) = B(N_1 + a, N_0 + b)
 $$
 
+## More examples
+
+Wikipedia contains a table, available [here](https://en.wikipedia.org/wiki/Conjugate_prior#Table_of_conjugate_distributions), containing a list of known conjugate distributions.
+
 ## Pros
 
 - With this method we obtain an exact posterior.
