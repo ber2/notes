@@ -25,4 +25,4 @@ This trick, where we simplify the [[Expectation Maximization#E-step]] by conside
 
 #### Probabilistic PCA
 
-It turns our that [[PCA]] can be understood from a probabilistic point of view, and it allows to interpolate missing data. This leads to [[PPCA|Probabilistic PCA]], which is introduced and discussed.
+It turns our that [[PCA 1]] can be understood from a probabilistic point of view, and it allows to interpolate missing data. This leads to [[PPCA|Probabilistic PCA]], which is introduced and discussed.

@@ -2,7 +2,7 @@
 aliases: [Probabilistic PCA, Probabilistic Principal Component Analysis]
 ---
 
-__Probabilistic Principal Component Analysis__ (__PPCA__), is a probabilistic approach to [[PCA]] built upon assuming that there is a [[Latent Variable]] which consists of the projection.
+__Probabilistic Principal Component Analysis__ (__PPCA__), is a probabilistic approach to [[PCA 1]] built upon assuming that there is a [[Latent Variable]] which consists of the projection.
 
 This is because the values in the target space after PCA are actually not observed, so they may be treated as a [[Latent Variable]].
 
@@ -42,7 +42,7 @@ by marginalizing on $t_i$. This integral in general is intractable.
 
 However, in this case, because the distributions are Normal, we can use the [[Conjugate distributions]]; the result is a normal distribution with updated parameters.
 
-In this case, we can take the logarithm and then the gradient and look for the optimal point. It turns out that the optimal parameters of this probabilistic models are exactly the same as the formulas for [[PCA]].
+In this case, we can take the logarithm and then the gradient and look for the optimal point. It turns out that the optimal parameters of this probabilistic models are exactly the same as the formulas for [[PCA 1]].
 
 ## Expectation maximization
 
