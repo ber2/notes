@@ -1,0 +1,1 @@
+__Performant Domains__ is a [[HT|Hybrid Theory]] product that aims to offer a simple targeting solution based on the domains where impressions are shown.
