@@ -12,3 +12,7 @@ The only step which is not straightforward engineering and really deserves some 
 ## Domain selection
 
 A conversion metric, such as CTR, should be selected. Then, 
+
+### References 
+
+- Product team's confluence pages about the subject [here](https://hybridtheory.atlassian.net/wiki/spaces/PROD/pages/2975563777/2021.06+Contextual+Performant+Domains+Product) and [here](https://hybridtheory.atlassian.net/wiki/spaces/PROD/pages/2481225729/Done+2021.03+Performant+Domains+for+Contextual+Targeting).
