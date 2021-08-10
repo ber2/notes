@@ -1,3 +1,7 @@
+---
+aliases: [Apache Spark]
+---
+
 __Spark__ is a [[Parallel Computation]] system that allows for [[Distributed Computation]] on a cluster.
 
 It runs on top of the [[JVM]] and provides several backend through which a program can distributed a computation and interact.
