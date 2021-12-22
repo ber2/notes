@@ -16,8 +16,8 @@ bidding based on LTV
 measure LTV per dollar
 and amount of conversions
 
-how much correlation there is between our LTV model and theirs
+how much correlation there is between our LTV model and theirs --> this is described by the R^2 metric of the regression model.
 
 report every week / twice a week, very high level
 
-do we need a pixel?
+do we need a pixel? YES
