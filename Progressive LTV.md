@@ -1,6 +1,23 @@
 # Progressive Predictive project
 
-```mermaid
-flowchart LR
-  A --> B
-```
+switch from CPA value to LTV (value of conversion along time)
+
+Requisites for POC.
+
+quote id is meaningless unless given pixel data
+
+prediction of LTV
+
+they create quartiles based on LTV
++ create lookalike audiences
+
+bidding based on LTV
+
+measure LTV per dollar
+and amount of conversions
+
+how much correlation there is between our LTV model and theirs
+
+report every week / twice a week, very high level
+
+do we need a pixel?
