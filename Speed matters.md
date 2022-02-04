@@ -1,0 +1,1 @@
+- [post](https://scattered-thoughts.net/writing/speed-matters/)

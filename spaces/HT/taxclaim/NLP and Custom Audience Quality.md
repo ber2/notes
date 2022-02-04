@@ -126,9 +126,9 @@ We conducted an experiment to compare how a given list of keywords could allow u
 
 We computed the segments resulting from each strategy (keywords found in the URL vs keywords found in the title vs keywords found via scraping). Below, two examples of audiences from our experiment:
 
-![](img/overlap-car-types.png)
+![](overlap-car-types.png)
 
-![](img/overlap-sports.png)
+![](overlap-sports.png)
 
 The conclusion is that using scraping would allow for a very significant increase in the size of our segments while keeping them relevant.
 

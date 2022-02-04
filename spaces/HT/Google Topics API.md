@@ -22,10 +22,21 @@ Point 1 implies that this proposal is a __cookieless interest-based advertising_
 
 ### Computation of user categories of interest
 
-First, websites are categorized using [[ML|Machine Learning]]. Details of the algorithm have not been made public. 
+First, websites are categorized using a [[ML|Machine Learning]] [[multilabel classifier]]. Details of the algorithm have not been made public.
 
-according to a machine learning classification. The number of labels can vary between several hundred (350 in the first description), and up to a full fledged [[IAB classification]].
-2. When users visit websites, their interest in the category is registered.
+The number of labels is subject to variation: from several hundred (350 in the first description), up to a full fledged [[IAB classification]]. This list is expected to be human-curated and public. Furthermore, sensitive categories will be deliberately kept out of the list, to protect users against discrimination.
+
+When users visit websites, their interest in the category of the website is registered. On each week, the top 5 topics for a given user are computed in-browser. An additional 6th topic, selected at random, is appended to the list.
+
+### Calling the API on a browsing event
+
+When we call the API on a browser event, we will receive an answer with up to three topics from the list computed above, one for each of the last three weeks.
+
+The topic returned by the API is fixed for each pair (user, website).
+
+Only callers that have observed the user visit a site about a given topic in the past three weeks can receive the topic as a response. If this is not the case, the topic will not be returned for 
+
+When the user
 3. A list of categories of interest for a given user is made available to advertisers.
 4. Sensitive categories are left out to avoid user discrimination (gender, race, religion, etc).
 5. Moreover, users can manually deactivate specific categories for which they do not want to see ads. Finally, they can opt-out completely.

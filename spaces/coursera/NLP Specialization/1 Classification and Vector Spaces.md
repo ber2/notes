@@ -68,7 +68,7 @@ It is attacked via an ad hoc [[Naive Bayes]] model.
 Some simple vectorization methods are introduced and discussed. This includes a discussion of linear
 algebra on numpy and some concepts used in word embeddings such as [[cosine similarity]].
 
-As a visualization technique, [[DSKnowledge/PCA]] is introduced and discussed. This includes a [demonstration
+As a visualization technique, [[PCA]] is introduced and discussed. This includes a [demonstration
 notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/1-classification-vector-spaces/week3-pca-demo.ipynb) using [[scikit-learn]]'s PCA implementation.
 
 ### Programming Assignment
@@ -77,7 +77,7 @@ notebook](https://github.com/ber2/coursera/blob/master/nlp-specialization/1-clas
 
 The problem is to predict the countries given their capital cities.
 
-Revolves around the manipulation of [[word vectors]], the usage of [[DSKnowledge/PCA]] in order to project into plots
+Revolves around the manipulation of [[word vectors]], the usage of [[PCA]] in order to project into plots
 and the comparison of word vectors using a similarity measure.
 
 

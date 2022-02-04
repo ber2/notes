@@ -38,7 +38,7 @@ The documents in the training dataset are in Catalan. They are short and contain
 
 The average length in characters is 52, following the distribution below.
 
-![](img/doclength.png)
+![](doclength.png)
 
 
 ### Classification ID
@@ -49,7 +49,7 @@ Despite being integers, we do not see a reason not to treat them as pure labels 
 
 Some classes are way heavier than others. In some sense, we need to predict this distribution:
 
-![](img/targetdist.png)
+![](targetdist.png)
 
 ### Classification ID tags
 

@@ -32,8 +32,8 @@ Another fact that we had not hypothesized is that sampling on one side seems to 
 | -0.90 | 0.002 | 1 | 0.003 |
 | -0.004 | -0.91 | 0.003 | 1 |
 
-![](img/rate_first.png)
-![](img/rate_third.png)
+![](rate_first.png)
+![](rate_third.png)
 
 ## How fast is sampling?
 
@@ -63,7 +63,7 @@ We have performed two runs of this experiment for each of the following sample r
 
 The results are plotted below:
 
-![](img/pullback_times.png)
+![](pullback_times.png)
 
 As seen, using the `df.sample` method in this setting reduces the time by about one half for any sampling rate between 0.01 and 0.5. To have a significant improvement, we need to drop to a rate below 0.005
 

@@ -1,0 +1,1 @@
+- [[BAIR]] blog [post](https://bair.berkeley.edu/blog/2019/08/13/memorization/)

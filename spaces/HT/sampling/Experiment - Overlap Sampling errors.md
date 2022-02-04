@@ -44,10 +44,10 @@ def one_sided_sample(A: int, B: int, AB: int,
  
  ### Results
  
-![](img/one-sided-3d.png)
-![](img/one-sided-a.png)
-![](img/one-sided-b.png)
-![](img/one-sided-c.png)
+![](one-sided-3d.png)
+![](one-sided-a.png)
+![](one-sided-b.png)
+![](one-sided-c.png)
 
 ### Conclusions
 
@@ -87,10 +87,10 @@ def two_sided_samples(A: int, B: int, AB: int,
 ```
 
 ### Results
-![](img/two-sided-3d.png)
-![](img/two-sided-a.png)
-![](img/two-sided-b.png)
-![](img/two-sided-c.png)
+![](two-sided-3d.png)
+![](two-sided-a.png)
+![](two-sided-b.png)
+![](two-sided-c.png)
 
 ### Conclusions
 We observe that the relative error decreases as `c` increases but takes much longer to drop below an acceptable threshold. The behaviour is significantly worse than in the case of one-sided samples.
