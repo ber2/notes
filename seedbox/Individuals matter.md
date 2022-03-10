@@ -1,1 +1,0 @@
-- [post](https://danluu.com/people-matter/)

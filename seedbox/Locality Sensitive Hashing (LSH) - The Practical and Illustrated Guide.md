@@ -1,1 +1,0 @@
-- [post](https://www.pinecone.io/learn/locality-sensitive-hashing/)
