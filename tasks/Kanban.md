@@ -22,36 +22,43 @@ kanban-plugin: basic
 
 ## Backlog Work
 
-- [ ] Add PBT tech tale materials to Github
 - [ ] Category segments in Databricks
-- [ ] Pass tech debt discussions into stories
-- [ ] Add new pipelines to AWS expense reports
 - [ ] Redshift Computing Deprecation
-- [ ] PO Candidate: Marc Maycas Claramunt
+- [ ] Pass tech debt discussions into stories
+- [ ] Add PBT tech tale materials to Github
+- [ ] Add new pipelines to AWS expense reports
 - [ ] Clean tech debt backlog
+- [ ] PO Candidate: Marc Maycas Claramunt
+- [ ] Bamboo HR: access details of reports
+- [ ] [[Leaving cookies behind]]
 
 
 ## Todo
 
-- [ ] Review: RED-197 (Miriam)
-- [ ] Job description: Data Eng Lead
-- [ ] Add Eduardo to expensify
 - [ ] Check AWS Budget reports
 - [ ] Fill Sanchez Form
 - [ ] Posar codi s3-logs a incubator
+- [ ] Send Databricks usage costs to Lauren
 
 
 ## WIP
 
-- [ ] Canviar finde curs agricultura eco
 
 
 ## Done
 
 **Complete**
+- [x] [[Job description - Data Eng Lead]]
+- [x] Finish review of RED-190
+- [x] Review: RED-197 (Miriam)
+- [x] Canviar finde curs agricultura eco
 
 
+***
 
+## Archive
+
+- [x] Add Eduardo to expensify
 
 %% kanban:settings
 ```

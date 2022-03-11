@@ -4,13 +4,13 @@ Date: 2022-03-03
 
 ## By Marçal
 
-- [ ] Databricks usage [RED-207](https://hybridtheory.atlassian.net/browse/RED-207)
+- [x] Databricks usage [RED-207](https://hybridtheory.atlassian.net/browse/RED-207)
 - [ ] Redshift "Deprecation". Moving category segments to databricks in SQL / scala. [RED-211](https://hybridtheory.atlassian.net/browse/RED-211)
 
 ## My ideas
 
-- [ ] Alpha environment, especially [SAS-11287](https://hybridtheory.atlassian.net/browse/SAS-11287) 
-- [ ] Airflow 2.0 [SAS-11286](https://hybridtheory.atlassian.net/browse/SAS-11286)
+- [x] Alpha environment, especially [SAS-11287](https://hybridtheory.atlassian.net/browse/SAS-11287) 
+- [x] Airflow 2.0 [SAS-11286](https://hybridtheory.atlassian.net/browse/SAS-11286)
 - [ ] Optimization of dataGraphs [RED-192](https://hybridtheory.atlassian.net/browse/RED-192)
 
 ## Other people's ideas

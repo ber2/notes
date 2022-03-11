@@ -5,10 +5,13 @@ tags: [121, people]
 Date of meeting: {{date}}
 Meeting with: {{person}}
 
-# Initial questions
+## Initial questions
+- How are you
+ 
+## Your topics
 
-# Your topics
+## My topics
 
-# My topics
+## Growth directions
 
-# Growth directions
+## Actions
