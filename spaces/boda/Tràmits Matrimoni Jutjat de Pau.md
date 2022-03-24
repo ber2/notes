@@ -1,0 +1,17 @@
+---
+tags: boda
+---
+
+## Tràmits
+- [ ] Cal tramitar l'[[Expedient matrimonial]] al Registre Civil del domicili de qualsevol dels contraents, que autoritzi la celebració del casament.
+- [ ] Un cop resolt l'expedient, cal adreçar-se al Registre Civil per tal de lliurar la documentació i concertar la data.
+
+## Documentació
+- [ ] Expedient matrimonial tramitat
+- [ ] Fotocòpia del DNI dels contraents
+- [ ] Fotocòpia del DNI dels dos testimonis
+- [ ] Solicitud de celebració de matrimoni civil
+
+### Referències
+
+- Info de la Gencat sobre els tràmits que cal fer per casar-se. [web](https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/celebracio-del-matrimoni-civil/)

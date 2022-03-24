@@ -1,0 +1,1 @@
+El __brou bordelès__ és una barreja de [[sulfat de coure]] i calç apagada que es fa servir com a tractament per al [[Mildiu|Míldiu]].
