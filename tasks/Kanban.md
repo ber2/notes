@@ -45,7 +45,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Prepare 1-1s
 - [ ] Manage RED-224 (finalize it with Miriam)
 - [ ] #hort Planificació bancals, associació cultius i rotació
 - [ ] Plan Gorkatalk on Infrastructure
@@ -56,7 +55,8 @@ kanban-plugin: basic
 
 ## WIP
 
-- [ ] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis)
+- [ ] Prepare 1-1s
+- [ ] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis) ^fa90b4
 - [ ] High level estimation of  [[Dsp-sync Lite]] with Jordi
 - [ ] [RED-218](https://hybridtheory.atlassian.net/browse/RED-218) Small IAB Classifier demo
 - [ ] [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) S3-logs data apps
