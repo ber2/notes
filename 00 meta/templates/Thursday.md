@@ -1,0 +1,5 @@
+- [ ] 11:00 RED Standup
+- [ ] 11:20 SAS Data Standup
+- [ ] 11:30 Team Meeting
+- [ ] 12:15 High Level Grooming
+- [ ] 16:15 Data Grooming

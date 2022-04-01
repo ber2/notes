@@ -1,0 +1,7 @@
+- [ ] 08:00 Mercat
+- [ ] 11:00 RED Standup
+- [ ] 11:20 SAS Data Standup
+- [ ] 12:00 Planning RED
+- [ ] 15:45 Sprint Demo Prep
+- [ ] 16:00 Sprint Demo
+- [ ] 17:00 Joyfulness (optional)

@@ -1,0 +1,4 @@
+- [ ] 11:00 RED Standup
+- [ ] 11:20 SAS Data Standup
+- [ ] 11:30 Weekly Leads Meeting
+- [ ] 16:30 Data Grooming

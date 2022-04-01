@@ -1,0 +1,3 @@
+- [ ] 11:00 RED Standup
+- [ ] 11:20 SAS Data Standup
+- [ ] 18:00 Entrenu Jan

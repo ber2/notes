@@ -1,0 +1,4 @@
+- [ ] 08:00 Mercat
+- [ ] 11:00 RED Standup
+- [ ] 11:20 SAS Data Standup
+- [ ] 16:00 Tech Debt High Level Grooming

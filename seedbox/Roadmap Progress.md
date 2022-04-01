@@ -17,6 +17,9 @@ This evergreen note will serve the purpose of tracking pending stuff in the road
 - [ ] [SAS-9376](https://hybridtheory.atlassian.net/browse/SAS-9376) Delete old metastore `test-databricks`
 - [ ] [SAS-11368](https://hybridtheory.atlassian.net/browse/SAS-11368) Retain only 3-4 months of first party data in Redshift Computing
 
+### Contextual URLs
+- [ ] [SAS-11834](https://hybridtheory.atlassian.net/browse/SAS-11834) Encoding of non-ascii characters before pushing to RTSS.
+
 ## Maintenance
 ### Lookalikes V2
 We are currently implementing the final stages of the migration, only the _segment sync_ task needs to be done. There is a main path aimed at producing segments, and a side path aimed at reporting by-products.
@@ -24,8 +27,9 @@ We are currently implementing the final stages of the migration, only the _segme
 #### Main path
 - [x] [SAS-11768](https://hybridtheory.atlassian.net/browse/SAS-11768) Enlarge Lookalikes V2 cluster in scoring task.
 - [x] [SAS-11031](https://hybridtheory.atlassian.net/browse/SAS-11031) Segment sync main scala job
-- [ ] [SAS-11483](https://hybridtheory.atlassian.net/browse/SAS-11483) Compare performance of old and new models
+- [ ] [RED-228](https://hybridtheory.atlassian.net/browse/RED-228) Compare performance of old and new models
 - [ ] [SAS-11815](https://hybridtheory.atlassian.net/browse/SAS-11815) Placeholder for replacing one pipeline by the other
+- [ ] [SAS-11838](https://hybridtheory.atlassian.net/browse/SAS-11838) Select top-scoring users as described.
 
 #### Side path
 - [ ] [SAS-11506](https://hybridtheory.atlassian.net/browse/SAS-11506) Save token weights table (aka supamodels)
@@ -34,7 +38,7 @@ We are currently implementing the final stages of the migration, only the _segme
 ### Redshift Deprecation
 #### Category segments in Databricks
 - [x] [SAS-11788](https://hybridtheory.atlassian.net/browse/SAS-11788) Spike to plan it out
-- [ ] [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) Overlap reports via minhash
+- [x] [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) Overlap reports via minhash
 
 ## Tech debt
 ### Airflow 2.0 Migration

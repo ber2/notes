@@ -6,12 +6,11 @@ kanban-plugin: basic
 
 ## Backlog Gires
 
-- [ ] #gires Cartells Montserrat a peu
 
 
 ## Backlog Hort
 
-- [ ] #hort Anar a buscar motocultor ivan
+- [ ] #hort Anar a buscar motocultor ivan @{2022-04-02}
 - [ ] #hort Portar dipòsits (Vicenç)
 - [ ] #hort Portar palla i fems (Vicenç)
 - [ ] #hort Empalme dipòsit reg (Vicenç)
@@ -34,6 +33,7 @@ kanban-plugin: basic
 
 ## Backlog Work
 
+- [ ] Plan Gorkatalk on Infrastructure
 - [ ] Add new pipelines to AWS expense reports
 - [ ] Clean tech debt backlog
 - [ ] Add PBT tech tale materials to Github
@@ -41,39 +41,59 @@ kanban-plugin: basic
 - [ ] Demanar posar a Miriam a Lastpass SharedAndEngineering
 - [ ] [[CircleCI  Deprecation of Ubuntu 14.04]]
 - [ ] [[Leaving cookies behind]]
+- [ ] [[Due Diligence TopicDNA]] @{2022-03-29} end of day
+- [ ] Planificar proper offsite
 
 
 ## Todo
 
-- [ ] Manage RED-224 (finalize it with Miriam)
-- [ ] #hort Planificació bancals, associació cultius i rotació
-- [ ] Plan Gorkatalk on Infrastructure
-- [ ] Organisation of future offsites
-- [ ] #review RED-216 (Eduardo)
-- [ ] RED story to do the architecture
+- [ ] High level estimation of  [[Dsp-sync Lite]] with Jordi
+- [ ] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis) ^fa90b4
+- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227): scraping and classification at volume
+- [ ] Reportar story per segment size de LAL-V2
+- [ ] Read Robyn guide [[Robyn#Guide for analysts]]
+- [ ] Meeting with Ines about Robyn
+- [ ] Help Patricia with [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818)
+- [ ] Accions de [[2022-03-31 Reunió Rocòdrom GIRES]]
+- [ ] Fill Sanchez Form
+- [ ] Write [[MinHash|Minhash Trick]] summary
+- [ ] Review Julio's stories about Category Segments in databricks
 
 
 ## WIP
 
-- [ ] Prepare 1-1s
-- [ ] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis) ^fa90b4
-- [ ] High level estimation of  [[Dsp-sync Lite]] with Jordi
+- [ ] #bug [SAS-11839](https://hybridtheory.atlassian.net/browse/SAS-11839) Insights EMEA re-run
+- [ ] #review [SAS-11764](https://hybridtheory.atlassian.net/browse/SAS-11764) Performant domains (Patricia)
+- [ ] #review [SAS-11788](https://hybridtheory.atlassian.net/browse/SAS-11788) Category Segments in Databricks (Julio)
 - [ ] [RED-218](https://hybridtheory.atlassian.net/browse/RED-218) Small IAB Classifier demo
 - [ ] [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) S3-logs data apps
+- [ ] #hort Planificació bancals, associació cultius i rotació
+- [ ] #wedding Trucar (o anar a) Jutjat de Pau
 
 
 ## Done
 
 **Complete**
-- [x] #storyWrite [SAS-11813](https://hybridtheory.atlassian.net/browse/SAS-11813) add tech detail (afegir URLs manualment a la llista sense fer matches)
-- [x] Act on the "airflow-packages" from github idea
-- [x] Pass tech debt discussions into stories [[2022-03-03 Data tech debt ideas]]
+- [x] #review #bug [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818) urlAudienceSegmentsDemo memory increase (Patricia)
+- [x] Check Databricks Costs
+- [x] Check AWS Costs
+- [x] #review Finish reviewing [SAS-11031](https://hybridtheory.atlassian.net/browse/SAS-11031) lookalikes-v2 sync (Alicia)
+- [x] #gires Penjar Cartells Montserrat a peu @{2022-03-30}
+- [x] #review [RED-216](https://hybridtheory.atlassian.net/browse/RED-216) NLP classifier v2 (Eduardo)
+- [x] #review [RED-226](https://hybridtheory.atlassian.net/browse/RED-226) labelled datasets lookup (Eduardo)
+- [x] Deploy hashed-mapping-partitioner [SAS-11804](https://hybridtheory.atlassian.net/browse/SAS-11804)
+- [x] Personal email catch-up
 
 
 ***
 
 ## Archive
 
+- [x] Manage [RED-224](https://hybridtheory.atlassian.net/browse/RED-224) (finalize it with Miriam)
+- [x] #gires Cartells Montserrat a peu
+- [x] #review [SAS-11031](https://hybridtheory.atlassian.net/browse/SAS-11031) (Alicia)
+- [x] Reduce cluster size of urlAudienceSegmentsDemo-emeaApac
+- [x] Organisation of future offsites
 - [x] Add Eduardo to expensify
 - [x] Canviar finde curs agricultura eco
 - [x] Review: [RED-197](https://hybridtheory.atlassian.net/browse/RED-197) (Miriam)
@@ -122,6 +142,10 @@ kanban-plugin: basic
 - [x] PO Candidate: Marc Maycas Claramunt
 - [x] Centralitzar tech debt en nota evergreen [[Tech debt]]
 - [x] #hort Comprar pala
+- [x] Act on the "airflow-packages" from github idea
+- [x] Pass tech debt discussions into stories [[2022-03-03 Data tech debt ideas]]
+- [x] #storyWrite [SAS-11813](https://hybridtheory.atlassian.net/browse/SAS-11813) add tech detail (afegir URLs manualment a la llista sense fer matches)
+- [x] Prepare 1-1s
 
 %% kanban:settings
 ```
