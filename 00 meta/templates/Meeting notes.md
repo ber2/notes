@@ -2,7 +2,6 @@
 tags: meeting
 ---
 
-Meeting:
 Date: {{date}}
 
 ## Agenda

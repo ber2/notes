@@ -6,83 +6,74 @@ kanban-plugin: basic
 
 ## Backlog Gires
 
+- [ ] #gires Parlar amb Aina Caviedes tema Casals @{2022-04-13}
 
 
 ## Backlog Hort
 
-- [ ] #hort Anar a buscar motocultor ivan @{2022-04-02}
+- [ ] #hort Comprar carretó
 - [ ] #hort Portar dipòsits (Vicenç)
-- [ ] #hort Portar palla i fems (Vicenç)
+- [ ] #hort Portar palla (Vicenç)
 - [ ] #hort Empalme dipòsit reg (Vicenç)
 - [ ] #hort Llaurar bancals
 - [ ] #hort Muntar reg
-- [ ] #hort Comprar carretó
 
 
 ## Backlog Personal
 
-- [ ] Automatitzar ETL meteobeguda
+- [ ] Check Udemy
+- [ ] [[Tràmits Matrimoni Jutjat de Pau]]
 - [ ] [[Diabetes ML]]
 - [ ] Blog post: Computing $\pi$ using MonteCarlo
 - [ ] Blog post: Docker builds
 - [ ] Blog post: PBT in python with Hypothesis
 - [ ] [[Reservar tallers de cuina]]
 - [ ] Reservar tallers cuina Patricia
-- [ ] [[Tràmits Matrimoni Jutjat de Pau]]
 
 
 ## Backlog Work
 
-- [ ] Plan Gorkatalk on Infrastructure
+- [ ] Write [[MinHash|Minhash Trick]] summary
+- [ ] Prepare next offsite in Barcelona
+- [ ] Write story: IAM Roles for metastore / s3 / databricks permissions
+- [ ] Read Robyn guide [[Robyn#Guide for analysts]]
+- [ ] High level estimation of  [[Dsp-sync Lite]] with Jordi
 - [ ] Add new pipelines to AWS expense reports
 - [ ] Clean tech debt backlog
 - [ ] Add PBT tech tale materials to Github
 - [ ] Bamboo HR: access details of reports
-- [ ] Demanar posar a Miriam a Lastpass SharedAndEngineering
-- [ ] [[CircleCI  Deprecation of Ubuntu 14.04]]
+- [ ] [[CircleCI Deprecation of Ubuntu 14.04]]
 - [ ] [[Leaving cookies behind]]
-- [ ] [[Due Diligence TopicDNA]] @{2022-03-29} end of day
 - [ ] Planificar proper offsite
+- [ ] Add slides and materials for Streamlit tech talk
 
 
 ## Todo
 
-- [ ] High level estimation of  [[Dsp-sync Lite]] with Jordi
-- [ ] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis) ^fa90b4
-- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227): scraping and classification at volume
-- [ ] Reportar story per segment size de LAL-V2
-- [ ] Read Robyn guide [[Robyn#Guide for analysts]]
-- [ ] Meeting with Ines about Robyn
-- [ ] Help Patricia with [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818)
+- [ ] #review [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) (Míriam)
+- [ ] #review #bug [SAS-11895](https://hybridtheory.atlassian.net/browse/SAS-11895) Hashed Mapping partition (Patricia/)
+- [ ] #review [SAS-11834](https://hybridtheory.atlassian.net/browse/SAS-11834) non-ascii URL characters (Alicia)
 - [ ] Accions de [[2022-03-31 Reunió Rocòdrom GIRES]]
 - [ ] Fill Sanchez Form
-- [ ] Write [[MinHash|Minhash Trick]] summary
-- [ ] Review Julio's stories about Category Segments in databricks
+- [ ] Actions from [[2022-04-05 Weekly Leads Meeting]]
 
 
 ## WIP
 
-- [ ] #bug [SAS-11839](https://hybridtheory.atlassian.net/browse/SAS-11839) Insights EMEA re-run
-- [ ] #review [SAS-11764](https://hybridtheory.atlassian.net/browse/SAS-11764) Performant domains (Patricia)
-- [ ] #review [SAS-11788](https://hybridtheory.atlassian.net/browse/SAS-11788) Category Segments in Databricks (Julio)
-- [ ] [RED-218](https://hybridtheory.atlassian.net/browse/RED-218) Small IAB Classifier demo
-- [ ] [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) S3-logs data apps
+- [ ] [SAS-11898](https://hybridtheory.atlassian.net/browse/SAS-11898) Drop one node from redshift computing
+- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
+- [ ] Actions from [[2022-04-11 Weekly Leads Meeting]]
 - [ ] #hort Planificació bancals, associació cultius i rotació
-- [ ] #wedding Trucar (o anar a) Jutjat de Pau
+- [ ] Finish re-runs of failed airflow jobs
 
 
 ## Done
 
 **Complete**
-- [x] #review #bug [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818) urlAudienceSegmentsDemo memory increase (Patricia)
-- [x] Check Databricks Costs
-- [x] Check AWS Costs
-- [x] #review Finish reviewing [SAS-11031](https://hybridtheory.atlassian.net/browse/SAS-11031) lookalikes-v2 sync (Alicia)
-- [x] #gires Penjar Cartells Montserrat a peu @{2022-03-30}
-- [x] #review [RED-216](https://hybridtheory.atlassian.net/browse/RED-216) NLP classifier v2 (Eduardo)
-- [x] #review [RED-226](https://hybridtheory.atlassian.net/browse/RED-226) labelled datasets lookup (Eduardo)
-- [x] Deploy hashed-mapping-partitioner [SAS-11804](https://hybridtheory.atlassian.net/browse/SAS-11804)
-- [x] Personal email catch-up
+- [x] Platform tables: alter platform_audiences
+- [x] [[Expedient matrimonial#Documentació]] demanar partida naixement registre civil
+- [x] Demanar posar a Miriam a Lastpass SharedAndEngineering
+- [x] Deploys SAS
 
 
 ***
@@ -146,6 +137,43 @@ kanban-plugin: basic
 - [x] Pass tech debt discussions into stories [[2022-03-03 Data tech debt ideas]]
 - [x] #storyWrite [SAS-11813](https://hybridtheory.atlassian.net/browse/SAS-11813) add tech detail (afegir URLs manualment a la llista sense fer matches)
 - [x] Prepare 1-1s
+- [x] #gires Penjar Cartells Montserrat a peu @{2022-03-30}
+- [x] #review [RED-216](https://hybridtheory.atlassian.net/browse/RED-216) NLP classifier v2 (Eduardo)
+- [x] #review [RED-226](https://hybridtheory.atlassian.net/browse/RED-226) labelled datasets lookup (Eduardo)
+- [x] Deploy hashed-mapping-partitioner [SAS-11804](https://hybridtheory.atlassian.net/browse/SAS-11804)
+- [x] Personal email catch-up
+- [x] #review Finish reviewing [SAS-11031](https://hybridtheory.atlassian.net/browse/SAS-11031) lookalikes-v2 sync (Alicia)
+- [x] #review [SAS-11788](https://hybridtheory.atlassian.net/browse/SAS-11788) Category Segments in Databricks (Julio)
+- [x] [RED-218](https://hybridtheory.atlassian.net/browse/RED-218) Small IAB Classifier demo
+- [x] #review #bug [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818) urlAudienceSegmentsDemo memory increase (Patricia)
+- [x] Check Databricks Costs
+- [x] Check AWS Costs
+- [x] #wedding Trucar (o anar a) Jutjat de Pau
+- [x] [[Tràmits Matrimoni Jutjat de Pau#Certificat empadronament darrers dos anys]]
+- [x] Pastilla Pua
+- [x] #hort Anar a buscar motocultor ivan @{2022-04-02}
+- [x] Help Patricia with [SAS-11818](https://hybridtheory.atlassian.net/browse/SAS-11818)
+- [x] [[2022-04-06 Async Grooming]]
+- [x] Guardar id docs a keepass
+- [x] Comprar cafè
+- [x] Escriure a Ciscu
+- [x] Comprar pinso
+- [x] Meeting with Ines about Robyn
+- [x] #bug [SAS-11839](https://hybridtheory.atlassian.net/browse/SAS-11839) Insights EMEA re-run
+- [x] #wontdo Review Julio's stories about Category Segments in databricks
+- [x] #review [SAS-11688](https://hybridtheory.atlassian.net/browse/SAS-11688) databricks clusters (Alicia)
+- [x] #review [SAS-11764](https://hybridtheory.atlassian.net/browse/SAS-11764) Performant domains (Patricia)
+- [x] Reportar story per segment size de LAL-V2
+- [x] Revisar [TTD draft](https://hybridtheory.atlassian.net/wiki/spaces/EN/pages/3347054599/2022-03+The+Trade+Desk+Integration+Analysis) ^fa90b4
+- [x] Plan Gorkatalk on Infrastructure
+- [x] [DBA-31](https://hybridtheory.atlassian.net/browse/DBA-31) Download and make available as a databricks table: https://download.cms.gov/nppes/NPPES_Data_Dissemination_March_2022.zip
+- [x] Automatitzar ETL meteobeguda
+- [x] Demanar cotxe Meri tornada
+- [x] Trucar Narcís Batlle @{2022-04-08}@@{13:00}
+- [x] #mildiu Contestar correu Narcís Batlle
+- [x] Micro Patricia
+- [x] Tech talk slides: Streamlit Data Apps
+- [x] #hort Portar fems (Vicenç)
 
 %% kanban:settings
 ```

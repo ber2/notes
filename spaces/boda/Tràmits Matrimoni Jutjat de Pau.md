@@ -12,6 +12,17 @@ tags: boda
 - [ ] Fotocòpia del DNI dels dos testimonis
 - [ ] Solicitud de celebració de matrimoni civil
 
+## Tramitació expedient matrimonial
+- [ ] Fotocòpia DNI Meri
+- [ ] Fotocòpia DNI Bertu
+- [ ] Fotocòpia DNI Lena
+- [ ] Fotocòpia DNI Roger
+- [ ] Certificat empadronament dels darrers dos anys
+- [ ] Certificat de naixement literal
+
+## Certificat empadronament darrers dos anys
+Demanat (Bertu) de manera electrònica amb idcat.
+
 ### Referències
 
 - Info de la Gencat sobre els tràmits que cal fer per casar-se. [web](https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/celebracio-del-matrimoni-civil/)
