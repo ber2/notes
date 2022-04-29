@@ -17,11 +17,12 @@ tags: boda
 - [ ] Fotocòpia DNI Bertu
 - [ ] Fotocòpia DNI Lena
 - [ ] Fotocòpia DNI Roger
-- [ ] Certificat empadronament dels darrers dos anys
-- [ ] Certificat de naixement literal
+- [x] Certificat empadronament dels darrers dos anys
+- [x] Certificat de naixement literal
 
 ## Certificat empadronament darrers dos anys
 Demanat (Bertu) de manera electrònica amb idcat.
+Fet
 
 ### Referències
 

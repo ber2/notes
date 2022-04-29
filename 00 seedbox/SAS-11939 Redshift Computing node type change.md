@@ -54,3 +54,7 @@ Monitoring:
 
 ### Migration plan
 (updated in place)
+
+## Notes during migration
+- [x] Setup cloudwatch alarms for the cluster at 15% disk usage.
+- [x] Setup cloudwatch alarms for the cluster at 90% disk usage.

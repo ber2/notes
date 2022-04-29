@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Backlog Gires
 
-- [ ] #gires Demanar reunió Ajuntament tema rocòdrom
 
 
 ## Backlog Hort
@@ -17,11 +16,8 @@ kanban-plugin: basic
 
 ## Backlog boda
 
-- [ ] #boda Serigrafia gots
 - [ ] #boda Barber / perruqueria Bertu
-- [ ] #boda The Papas & The Popos
-- [ ] #boda Detalls
-- [ ] #boda Planning taules
+- [ ] #boda [[Concert The Papas & The Popos]]
 
 
 ## Backlog Personal
@@ -53,24 +49,38 @@ kanban-plugin: basic
 
 ## Todo
 
+- [ ] #cotxe Trucar Toyota
+- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
 - [ ] #review Check [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) (Eduardo) about overlap reports via minhash
 - [ ] #review Check [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) (Miriam) about the S3 logs data app
+- [ ] #gires Demanar reunió Ajuntament tema rocòdrom
+- [ ] #review [RED-205](https://hybridtheory.atlassian.net/browse/RED-205) (Miriam) Mediagrid URLs in Xandr
 
 
 ## WIP
 
-- [ ] [SAS-11939](https://hybridtheory.atlassian.net/browse/SAS-11939) Redshift Computing node type change
-- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
-- [ ] #hort Muntar reg
 - [ ] Prepare next offsite in Barcelona
+- [ ] [DBA-34](https://hybridtheory.atlassian.net/browse/DBA-34) Audience insights
+- [ ] #boda [[Serigrafies gots]]
+- [ ] #boda [[Detalls solidaris]]
+- [ ] #hort Muntar reg
+- [ ] #boda Planning taules
 
 
 ## Done
 
 **Complete**
-- [x] #review [SAS-11855](https://hybridtheory.atlassian.net/browse/SAS-11855) (Jordi) about giving S3 access to Product
-- [x] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) URL Volumes explo
-- [x] #review SAS-11858 (Jordi) user-ids-mapper task order
+- [x] #review SAS-12001 (Alicia) Contextual URLs mediagrid task bug
+- [x] [SAS-11780](https://hybridtheory.atlassian.net/browse/SAS-11780) Mediagrid sftp private key
+- [x] [SAS-11939](https://hybridtheory.atlassian.net/browse/SAS-11939)  [[SAS-11939 Redshift Computing node type change]]
+- [x] #boda Trucar Jutjat de Pau per tancar data inici tràmits expedient matrimonial
+- [x] #gires Mirar tema rates
+- [x] #gires Mirar referència rajoles
+- [x] #boda Fotocòpia DNI Roger
+- [x] #boda Fotocòpia DNI Lena
+- [x] #review [SAS-11863](https://hybridtheory.atlassian.net/browse/SAS-11863) (Julio) mapping timestamps bug
+- [x] #boda Iniciar Tràmits expedient @{2022-04-25}@@{09:00}
+- [x] #gires Informe Karlos Lara curs barrancs nivell 2
 
 
 ***
@@ -199,6 +209,9 @@ kanban-plugin: basic
 - [x] Accions de [[2022-03-31 Reunió Rocòdrom GIRES]]
 - [x] [[CircleCI Deprecation of Ubuntu 14.04]]
 - [x] #wontdo High level estimation of  [[Dsp-sync Lite]] with Jordi
+- [x] #review [SAS-11855](https://hybridtheory.atlassian.net/browse/SAS-11855) (Jordi) about giving S3 access to Product
+- [x] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) URL Volumes explo
+- [x] #review SAS-11858 (Jordi) user-ids-mapper task order
 
 %% kanban:settings
 ```

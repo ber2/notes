@@ -10,6 +10,7 @@ Date: {{date:YYYY-MM-DD}}
 - [ ] Email
 - [ ] Calendar (update meetings section)
 - [ ] Jira Boards
+  - [ ] [DBA](https://hybridtheory.atlassian.net/jira/software/c/projects/DBA/boards/90) 
   - [ ] [RED](https://hybridtheory.atlassian.net/jira/software/c/projects/RED/boards/86)
   - [ ] [SAS](https://hybridtheory.atlassian.net/jira/software/c/projects/SAS/boards/66)
 - [ ] Github
