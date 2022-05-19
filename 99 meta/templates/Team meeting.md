@@ -12,7 +12,8 @@ Date: {{date}}
 - [ ] Ferran
 - [ ] Julio
 - [ ] Bojana
-- [ ] Alberto
+- [ ] Alberto C
+- [ ] Alberto H
 - [ ] Alicia
 - [ ] Patricia
 - [ ] Marçal

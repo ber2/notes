@@ -1,2 +1,3 @@
+- [ ] 07:30 Learning
 - [ ] 12:15 Data Sprint Planning
 - [ ] 16:30 Sprint Retrospective

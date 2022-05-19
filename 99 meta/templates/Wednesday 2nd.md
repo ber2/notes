@@ -1,2 +1,3 @@
+- [ ] 07:30 Learning
 - [ ] 11:00 RED Standup
 - [ ] 11:20 SAS Data Standup

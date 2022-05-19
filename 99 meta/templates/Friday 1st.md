@@ -1,9 +1,7 @@
-- [ ] 08:20 1-1 Eduardo
-- [ ] 09:00 1-1 Míriam
-- [ ] 09:40 1-1 Patri
-- [ ] 10:20 1-1 Alicia
+- [ ] 07:30 Learning
+- [ ] 10:30 1-1 Eduardo
 - [ ] 11:00 RED Standup
 - [ ] 11:20 SAS Data Standup
-- [ ] 11:30 1-1 Julio
+- [ ] 11:30 1-1 Míriam
 - [ ] 16:00 Tech talk
 - [ ] 18:00 Entrenu Jan

@@ -7,7 +7,7 @@ This evergreen note will serve the purpose of tracking pending stuff in the road
 
 ## Product
 ### Data retention
-- [ ] [SAS-11561](https://hybridtheory.atlassian.net/browse/SAS-11561) Load anonymised data in events partitioner
+- [x] [SAS-11561](https://hybridtheory.atlassian.net/browse/SAS-11561) Load anonymised data in events partitioner
 - [ ] [SAS-11562](https://hybridtheory.atlassian.net/browse/SAS-11562) Xandr loglevel loader anonymises data.
 - [ ] [SAS-11567](https://hybridtheory.atlassian.net/browse/SAS-11567) Drop old data from af-reservoir
 - [ ] [SAS-11567](https://hybridtheory.atlassian.net/browse/SAS-11567) Drop old data from af-xandr-raw
@@ -17,23 +17,24 @@ This evergreen note will serve the purpose of tracking pending stuff in the road
 - [ ] [SAS-9376](https://hybridtheory.atlassian.net/browse/SAS-9376) Delete old metastore `test-databricks`
 
 ### Contextual URLs
-- [ ] [SAS-11834](https://hybridtheory.atlassian.net/browse/SAS-11834) Encoding of non-ascii characters before pushing to RTSS.
+- [x] [SAS-11834](https://hybridtheory.atlassian.net/browse/SAS-11834) Encoding of non-ascii characters before pushing to RTSS.
 
 ## Maintenance
 ### Lookalikes V2
 We are currently implementing the final stages of the migration, only the _segment sync_ task needs to be done. There is a main path aimed at producing segments, and a side path aimed at reporting by-products.
 
 #### Main path
-- [ ] [RED-228](https://hybridtheory.atlassian.net/browse/RED-228) Compare performance of old and new models
+- [x] [RED-228](https://hybridtheory.atlassian.net/browse/RED-228) Compare performance of old and new models
 - [ ] [SAS-11815](https://hybridtheory.atlassian.net/browse/SAS-11815) Placeholder for replacing one pipeline by the other
-- [ ] [SAS-11838](https://hybridtheory.atlassian.net/browse/SAS-11838) Select top-scoring users as described.
+- [x] [SAS-11838](https://hybridtheory.atlassian.net/browse/SAS-11838) Select top-scoring users as described.
+- [ ] [SAS-12023](https://hybridtheory.atlassian.net/browse/SAS-12023) LAL-V2 scoring task parallelization
 
 #### Side path
-- [ ] [SAS-11506](https://hybridtheory.atlassian.net/browse/SAS-11506) Save token weights table (aka supamodels)
+- [x] [SAS-11506](https://hybridtheory.atlassian.net/browse/SAS-11506) Save token weights table (aka supamodels)
 - [ ] [SAS-11032](https://hybridtheory.atlassian.net/browse/SAS-11032) Spike about new reporting by-products
 
 ### Shrink Redshift Computing
-- [ ] [SAS-11368](https://hybridtheory.atlassian.net/browse/SAS-11368) Retain only 3-4 months of first party data in Redshift Computing
+- [x] [SAS-11368](https://hybridtheory.atlassian.net/browse/SAS-11368) Retain only 3-4 months of first party data in Redshift Computing
 #### Category segments in Databricks
 - [x] [SAS-11788](https://hybridtheory.atlassian.net/browse/SAS-11788) Spike to plan it out
 - [x] [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) Overlap reports via minhash
@@ -49,10 +50,10 @@ We are currently implementing the final stages of the migration, only the _segme
 ### Databricks management
 - [x] [SAS-11687](https://hybridtheory.atlassian.net/browse/SAS-11687) Spike about user groups
 - [x] [SAS-11688](https://hybridtheory.atlassian.net/browse/SAS-11688) Spike about cluster management
-- [ ] [SAS-11775](https://hybridtheory.atlassian.net/browse/SAS-11775) Create user groups
+- [x] [SAS-11775](https://hybridtheory.atlassian.net/browse/SAS-11775) Create user groups
 
 ### Misc
-- [ ] [SAS-11817](https://hybridtheory.atlassian.net/browse/SAS-11817) POC to stop using PyPIcloud
+- [x] [SAS-11817](https://hybridtheory.atlassian.net/browse/SAS-11817) POC to stop using PyPIcloud
 
 ### Alpha environment data sampling
 - [ ] [SAS-11287](https://hybridtheory.atlassian.net/browse/SAS-11287) Sample enricher output

@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## Backlog Gires
 
+- [ ] #gires Demanar reunió Ajuntament tema rocòdrom
+- [ ] Actualitzar infos pàgina web
 
 
 ## Backlog Hort
@@ -17,15 +19,13 @@ kanban-plugin: basic
 ## Backlog boda
 
 - [ ] #boda Barber / perruqueria Bertu
-- [ ] #boda [[Concert The Papas & The Popos]]
+- [ ] #boda confirmar pressupost Papas & The Popos
 
 
 ## Backlog Personal
 
 - [ ] Add PBT tech tale materials to Github
 - [ ] Add slides and materials for Streamlit tech talk
-- [ ] Check Udemy
-- [ ] [[Tràmits Matrimoni Jutjat de Pau]]
 - [ ] [[Diabetes ML]]
 - [ ] Blog post: Computing $\pi$ using MonteCarlo
 - [ ] Blog post: Docker builds
@@ -36,51 +36,38 @@ kanban-plugin: basic
 
 ## Backlog Work
 
-- [ ] Write story: IAM Roles for metastore / s3 / databricks permissions
+- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
 - [ ] Read Robyn guide [[Robyn#Guide for analysts]]
-- [ ] Add new pipelines to AWS expense reports
-- [ ] Clean tech debt backlog
 - [ ] Bamboo HR: access details of reports
-- [ ] Setejar 1-1 breus amb Miriam, Patricia i Eduardo pel final del probation period
-- [ ] Lookalikes scoring task is not parallel
 - [ ] Write [[MinHash|Minhash Trick]] summary
+- [ ] Check out Grafana + Graphite for ML tracking
+- [ ] [[2022-05-31 Team Offsite#Confirmar pagament]]
+- [ ] [[2022-05-31 Team Offsite#Tria d'arrossos]]
+- [ ] [[2022-05-31 Team Offsite#Dietary requirements / allergies]]
 - [ ] [[Leaving cookies behind]]
 
 
 ## Todo
 
-- [ ] #cotxe Trucar Toyota
-- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
-- [ ] #review Check [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) (Eduardo) about overlap reports via minhash
-- [ ] #review Check [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) (Miriam) about the S3 logs data app
-- [ ] #gires Demanar reunió Ajuntament tema rocòdrom
-- [ ] #review [RED-205](https://hybridtheory.atlassian.net/browse/RED-205) (Miriam) Mediagrid URLs in Xandr
+- [ ] #review RED-238 (Miriam) S3 logs data app
+- [ ] #storyWrite Lookalikes segment sync write unix timestamps, not sql timestamps
+- [ ] #storyWrite Re-evaluate old vs new Lookalikes models
+- [ ] #storyWrite Lookalikes saves token weights in af-tmp
+- [ ] #storyWrite DAG step & SQL script to add token weights data to the `supa_models_collection` table
 
 
 ## WIP
 
-- [ ] Prepare next offsite in Barcelona
-- [ ] [DBA-34](https://hybridtheory.atlassian.net/browse/DBA-34) Audience insights
-- [ ] #boda [[Serigrafies gots]]
-- [ ] #boda [[Detalls solidaris]]
-- [ ] #hort Muntar reg
-- [ ] #boda Planning taules
+- [ ] [RED-235](https://hybridtheory.atlassian.net/browse/RED-235) Daily segment updates as a databricks workflow
 
 
 ## Done
 
 **Complete**
-- [x] #review SAS-12001 (Alicia) Contextual URLs mediagrid task bug
-- [x] [SAS-11780](https://hybridtheory.atlassian.net/browse/SAS-11780) Mediagrid sftp private key
-- [x] [SAS-11939](https://hybridtheory.atlassian.net/browse/SAS-11939)  [[SAS-11939 Redshift Computing node type change]]
-- [x] #boda Trucar Jutjat de Pau per tancar data inici tràmits expedient matrimonial
-- [x] #gires Mirar tema rates
-- [x] #gires Mirar referència rajoles
-- [x] #boda Fotocòpia DNI Roger
-- [x] #boda Fotocòpia DNI Lena
-- [x] #review [SAS-11863](https://hybridtheory.atlassian.net/browse/SAS-11863) (Julio) mapping timestamps bug
-- [x] #boda Iniciar Tràmits expedient @{2022-04-25}@@{09:00}
-- [x] #gires Informe Karlos Lara curs barrancs nivell 2
+- [x] #boda Passar formulari DNI / data naixement a amics
+- [x] Demanar vacances al voltant de la boda
+- [x] Fill Sanchezform
+- [x] Comprar Café
 
 
 ***
@@ -212,6 +199,61 @@ kanban-plugin: basic
 - [x] #review [SAS-11855](https://hybridtheory.atlassian.net/browse/SAS-11855) (Jordi) about giving S3 access to Product
 - [x] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) URL Volumes explo
 - [x] #review SAS-11858 (Jordi) user-ids-mapper task order
+- [x] #review SAS-12001 (Alicia) Contextual URLs mediagrid task bug
+- [x] [SAS-11780](https://hybridtheory.atlassian.net/browse/SAS-11780) Mediagrid sftp private key
+- [x] [SAS-11939](https://hybridtheory.atlassian.net/browse/SAS-11939)  [[SAS-11939 Redshift Computing node type change]]
+- [x] #boda Trucar Jutjat de Pau per tancar data inici tràmits expedient matrimonial
+- [x] #gires Mirar tema rates
+- [x] #gires Mirar referència rajoles
+- [x] #boda Fotocòpia DNI Roger
+- [x] #boda Fotocòpia DNI Lena
+- [x] #review [SAS-11863](https://hybridtheory.atlassian.net/browse/SAS-11863) (Julio) mapping timestamps bug
+- [x] #boda Iniciar Tràmits expedient @{2022-04-25}@@{09:00}
+- [x] #gires Informe Karlos Lara curs barrancs nivell 2
+- [x] #gires Signar conveni Hostesa
+- [x] Async gruma tasks [[2022-05-04 Data Sprint Planning]]
+- [x] #review SAS-12008 (Alicia) Redshift new spaces migration
+- [x] Redshift provisioned instances
+- [x] #boda Planning taules
+- [x] #cotxe Trucar Toyota
+- [x] Setejar 1-1 breus amb Miriam, Patricia i Eduardo pel final del probation period
+- [x] #bug SAS-12015 simon_all problems
+- [x] [DBA-34](https://hybridtheory.atlassian.net/browse/DBA-34) Audience insights
+- [x] [DBA-35](https://hybridtheory.atlassian.net/browse/DBA-35) Mercedes Benz
+- [x] Write story: IAM Roles for metastore / s3 / databricks permissions
+- [x] Change AWS password
+- [x] [[Tràmits Matrimoni Jutjat de Pau]]
+- [x] Check Udemy
+- [x] Clean tech debt backlog
+- [x] #boda Escriure a ecofestes
+- [x] #boda [[Serigrafies gots]]
+- [x] #boda [[Detalls solidaris]]
+- [x] #review Check [RED-223](https://hybridtheory.atlassian.net/browse/RED-223) (Miriam) about the S3 logs data app
+- [x] #review Check [RED-225](https://hybridtheory.atlassian.net/browse/RED-225) (Eduardo) about overlap reports via minhash
+- [x] #hort Muntar reg
+- [x] Airflow failures
+- [x] #boda Formulari DNI / Data naixement
+- [x] #review [RED-228](https://hybridtheory.atlassian.net/browse/RED-228) (Eduardo) Performance of old vs new Lookalikes models
+- [x] [RED-232](https://hybridtheory.atlassian.net/browse/RED-232) segments volume study
+- [x] #storyWrite Recurrent Keywords by sampling
+- [x] #storyWrite R&D EPIC: data sources on how to build a user profile for an advertiser via interaction with the Twitter API (also Reddit) à la TopicDNA
+- [x] Teach AlbertoH about deploys
+- [x] [RED-229](https://hybridtheory.atlassian.net/browse/RED-229) Domain IAB classification based on URL tokens
+- [x] Feedback about Marçal for Leslie Kemp
+- [x] Add new pipelines to AWS expense reports
+- [x] #storyWrite Monitor sizes of segment files in dsp-sync / segment_syncs in streamlit App
+- [x] [[2022-05-31 Team Offsite]]
+- [x] #boda Concert The Papas & The Popos
+- [x] #boda Pressupost EcoFestes
+- [x] #boda Signar pressupost ecofestes
+- [x] Report story: minhash via scala & spark-ml
+- [x] Sort out eventsPartitioner mess
+- [x] #review [RED-205](https://hybridtheory.atlassian.net/browse/RED-205) (Miriam) Mediagrid URLs in Xandr
+- [x] Report story about medical segments via NPI data in R&D
+- [x] #boda Trucar Ecofestes
+- [x] Write story: Mediagrid contextual URLs push should only push new URLs
+- [x] Check AWS costs
+- [x] Check sql cluster costs
 
 %% kanban:settings
 ```
