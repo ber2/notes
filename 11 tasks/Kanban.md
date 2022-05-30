@@ -12,14 +12,16 @@ kanban-plugin: basic
 
 ## Backlog Hort
 
-- [ ] #hort Portar dipòsits (Vicenç)
-- [ ] #hort Portar palla (Vicenç)
+- [ ] #hort Lona per fer ombra a la zona de la taula
+- [ ] #hort Acabar reg del bancal de les cebes
 
 
 ## Backlog boda
 
 - [ ] #boda Barber / perruqueria Bertu
 - [ ] #boda confirmar pressupost Papas & The Popos
+- [ ] #boda Penjar sitting plan al drive de la boda i al Xaloc
+- [ ] #boda Pagament factura Quatrepams
 
 
 ## Backlog Personal
@@ -41,33 +43,30 @@ kanban-plugin: basic
 - [ ] Bamboo HR: access details of reports
 - [ ] Write [[MinHash|Minhash Trick]] summary
 - [ ] Check out Grafana + Graphite for ML tracking
-- [ ] [[2022-05-31 Team Offsite#Confirmar pagament]]
-- [ ] [[2022-05-31 Team Offsite#Tria d'arrossos]]
-- [ ] [[2022-05-31 Team Offsite#Dietary requirements / allergies]]
 - [ ] [[Leaving cookies behind]]
 
 
 ## Todo
 
-- [ ] #review RED-238 (Miriam) S3 logs data app
-- [ ] #storyWrite Lookalikes segment sync write unix timestamps, not sql timestamps
+- [ ] #boda Pagament catering
+- [ ] #review [RED-238](https://hybridtheory.atlassian.net/browse/RED-238) (Miriam) S3 logs data app
 - [ ] #storyWrite Re-evaluate old vs new Lookalikes models
-- [ ] #storyWrite Lookalikes saves token weights in af-tmp
-- [ ] #storyWrite DAG step & SQL script to add token weights data to the `supa_models_collection` table
+- [ ] #techTale The Archival Datathon
+- [ ] #boda Caixa enginyeres pujar límit transferencia
+- [ ] #review [SAS-12132](https://hybridtheory.atlassian.net/browse/SAS-12132) (AlbertoH) segments uploader.
 
 
 ## WIP
 
-- [ ] [RED-235](https://hybridtheory.atlassian.net/browse/RED-235) Daily segment updates as a databricks workflow
+- [ ] [RED-221](https://hybridtheory.atlassian.net/browse/RED-221) Robyn / MMM end-to-end Business model
+- [ ] Watch: AWS Cost Alert DMP platform
+- [ ] [RED-222](https://hybridtheory.atlassian.net/browse/RED-222) Webshrinker API requests
+- [ ] #review [SAS-12123](https://hybridtheory.atlassian.net/browse/SAS-12123) (Julio) Lookalikes V2
 
 
 ## Done
 
 **Complete**
-- [x] #boda Passar formulari DNI / data naixement a amics
-- [x] Demanar vacances al voltant de la boda
-- [x] Fill Sanchezform
-- [x] Comprar Café
 
 
 ***
@@ -254,6 +253,27 @@ kanban-plugin: basic
 - [x] Write story: Mediagrid contextual URLs push should only push new URLs
 - [x] Check AWS costs
 - [x] Check sql cluster costs
+- [x] [RED-235](https://hybridtheory.atlassian.net/browse/RED-235) Daily segment updates as a databricks workflow
+- [x] Hotel reservation Eduardo with the rest of Product
+- [x] #boda Passar formulari DNI / data naixement a amics
+- [x] Demanar vacances al voltant de la boda
+- [x] Fill Sanchezform
+- [x] Comprar Café
+- [x] #bug [SAS-12143](https://hybridtheory.atlassian.net/browse/SAS-12143) Ye olde lookalikes
+- [x] Feedback for Bojana's end of year review
+- [x] [RED-229](https://hybridtheory.atlassian.net/browse/RED-229) Try LinearSVC model
+- [x] #review [SAS-10821](https://hybridtheory.atlassian.net/browse/SAS-10821) (Alicia) Mock pyspark in insights.
+- [x] [[2022-05-31 Team Offsite#Dietary requirements / allergies]]
+- [x] [[2022-05-31 Team Offsite#Confirmar pagament]]
+- [x] [[2022-05-31 Team Offsite#Tria d'arrossos]]
+- [x] #storyWrite [SAS-11980](https://hybridtheory.atlassian.net/browse/SAS-11980) --> Add technical detail to stories in the epic
+- [x] #storyWrite RED story to get 10000 labelled domains from webshrinker for Mediagrid
+- [x] #review [SAS-12051](https://hybridtheory.atlassian.net/browse/SAS-12051) (Alicia) Spike about optimization of Audience Insights
+- [x] [RED-235](https://hybridtheory.atlassian.net/browse/RED-235) Posar en marxa el medical segment
+- [x] #storyWrite Lookalikes saves token weights in af-tmp
+- [x] #storyWrite DAG step & SQL script to add token weights data to the `supa_models_collection` table
+- [x] [SAS-12051](https://hybridtheory.atlassian.net/browse/SAS-12051) Ajudar Alicia optimization Audience Insights
+- [x] #storyWrite Lookalikes segment sync write unix timestamps, not sql timestamps
 
 %% kanban:settings
 ```

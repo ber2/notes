@@ -9,3 +9,4 @@ tags: [meeting, retro]
 ## Happy
 
 ## Notes & Actions
+![[Screenshot from 2022-05-20 15-15-21.png]]
