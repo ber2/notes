@@ -13,15 +13,15 @@ kanban-plugin: basic
 ## Backlog Hort
 
 - [ ] #hort Lona per fer ombra a la zona de la taula
-- [ ] #hort Acabar reg del bancal de les cebes
 
 
 ## Backlog boda
 
-- [ ] #boda Barber / perruqueria Bertu
-- [ ] #boda confirmar pressupost Papas & The Popos
-- [ ] #boda Penjar sitting plan al drive de la boda i al Xaloc
-- [ ] #boda Pagament factura Quatrepams
+- [ ] #boda Fotografies
+- [ ] #boda Hotel cabanes als arbres (Andratx)
+- [ ] #boda Hotel Bombolles (Marta, Maria, Maria i Lluís)
+- [ ] #boda Hotel + restaurant Les Cols (Sant Esteve)
+- [ ] #boda Recompte wonderboxes
 
 
 ## Backlog Personal
@@ -34,34 +34,32 @@ kanban-plugin: basic
 - [ ] Blog post: PBT in python with Hypothesis
 - [ ] [[Reservar tallers de cuina]]
 - [ ] Reservar tallers cuina Patricia
+- [ ] Joyplot Meteobeguda daily avg temp
 
 
 ## Backlog Work
 
-- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
-- [ ] Read Robyn guide [[Robyn#Guide for analysts]]
-- [ ] Bamboo HR: access details of reports
 - [ ] Write [[MinHash|Minhash Trick]] summary
 - [ ] Check out Grafana + Graphite for ML tracking
-- [ ] [[Leaving cookies behind]]
+- [ ] Check cost correlation with increase in the number of events
+- [ ] Estem mostrant més impressions amb l'augment de dades de sharethis per a EMEA
+- [ ] Correlació entre nombres d'events que ingerim, usuaris que arriben als segments i impressions que se serveixen
 
 
 ## Todo
 
-- [ ] #boda Pagament catering
-- [ ] #review [RED-238](https://hybridtheory.atlassian.net/browse/RED-238) (Miriam) S3 logs data app
-- [ ] #storyWrite Re-evaluate old vs new Lookalikes models
-- [ ] #techTale The Archival Datathon
-- [ ] #boda Caixa enginyeres pujar límit transferencia
-- [ ] #review [SAS-12132](https://hybridtheory.atlassian.net/browse/SAS-12132) (AlbertoH) segments uploader.
+- [ ] Rhys end-of-year feedback
+- [ ] #boda Viatge Islàndia
+- [ ] #hort Programador reg
+- [ ] Sanchez form June
 
 
 ## WIP
 
-- [ ] [RED-221](https://hybridtheory.atlassian.net/browse/RED-221) Robyn / MMM end-to-end Business model
-- [ ] Watch: AWS Cost Alert DMP platform
-- [ ] [RED-222](https://hybridtheory.atlassian.net/browse/RED-222) Webshrinker API requests
-- [ ] #review [SAS-12123](https://hybridtheory.atlassian.net/browse/SAS-12123) (Julio) Lookalikes V2
+- [ ] #techTale The Archival Datathon
+- [ ] [RED-255](https://hybridtheory.atlassian.net/browse/RED-255) The hotel problem
+- [ ] #review [RED-250](https://hybridtheory.atlassian.net/browse/RED-250) (Míriam) End-to-end Contextual IAB segments
+- [ ] [RED-221](https://hybridtheory.atlassian.net/browse/RED-221) Robyn / MMM end-to-end Business model: [[RED-221 Robyn Product Proposal]]
 
 
 ## Done
@@ -274,6 +272,72 @@ kanban-plugin: basic
 - [x] #storyWrite DAG step & SQL script to add token weights data to the `supa_models_collection` table
 - [x] [SAS-12051](https://hybridtheory.atlassian.net/browse/SAS-12051) Ajudar Alicia optimization Audience Insights
 - [x] #storyWrite Lookalikes segment sync write unix timestamps, not sql timestamps
+- [x] #boda Pagament factura Quatrepams
+- [x] Check databricks `url_segments_cache` table
+- [x] #review [SAS-12132](https://hybridtheory.atlassian.net/browse/SAS-12132) (AlbertoH) segments uploader.
+- [x] #review [SAS-12123](https://hybridtheory.atlassian.net/browse/SAS-12123) (Julio) Lookalikes V2
+- [x] AWS Costs Check
+- [x] #boda Caixa enginyeres pujar límit transferencia
+- [x] #hort Acabar reg del bancal de les cebes
+- [x] #boda Concurs aliances
+- [x] [DBA-44](https://hybridtheory.atlassian.net/browse/DBA-44) Update of PET report
+- [x] #boda Barber / perruqueria Bertu
+- [x] #boda Penjar sitting plan al drive de la boda i al Xaloc
+- [x] #boda Pagament catering
+- [x] [RED-222](https://hybridtheory.atlassian.net/browse/RED-222) Webshrinker API requests
+- [x] [SAS-12163](https://hybridtheory.atlassian.net/browse/SAS-12163) Notebook from standard feed
+- [x] Prepare RED planning stories
+- [x] #storyWrite Re-evaluate old vs new Lookalikes models
+- [x] #boda Control ingressos / despeses
+- [x] #boda confirmar pressupost Papas & The Popos
+- [x] Read Robyn guide [[Robyn#Guide for analysts]]
+- [x] METEOBEGUDA NIGHTLY SNAPSHOT
+- [x] [DBA-43](https://hybridtheory.atlassian.net/browse/DBA-43) Audience Insights runs
+- [x] #storyWrite Verificar si fer la neteja de les URL reduirem el tamany de la taula de cache
+- [x] Deploy lookalikes v2 AVUI
+- [x] Ajudar Patricia amb tasca reporting lookalikes
+- [x] #boda Avisar Ivette impressions
+- [x] #boda Regal Flora
+- [x] #boda Regal Clara
+- [x] #review SAS-12222 (Jordi) mr-data retention policy
+- [x] #boda Preguntar tema taxis a Roger
+- [x] #boda demanar últim menú a Chus i penjar-lo al drive (Meri)
+- [x] #review RED-244 userIdsMapper project input/output
+- [x] #review [RED-238](https://hybridtheory.atlassian.net/browse/RED-238) (Miriam) S3 logs data app
+- [x] #boda enviar impressions a Ivette: espai.imagine@gmail.com / 647057009
+- [x] #boda Revisar estat comptes
+- [x] Comentar amb Marçal estada Míriam a l'estranger
+- [x] #boda Reservar taxi Philippe
+- [x] #boda Retornar transferència Pepe
+- [x] #boda Escriure a companyia taxis
+- [x] #boda Trucar taxis per avisar que farem viatges dissabte
+- [x] #boda Retornar trucada fotògrafs
+- [x] #boda Regal Perez
+- [x] #boda Regal Roger
+- [x] #boda Acabar playlist festa
+- [x] #boda playlist Spotify per plats banquet i pq soni durant el sopar
+- [x] #boda Revisar pressupost actualitzat
+- [x] #boda Recompte dinars dissabte i diumenge
+- [x] #boda Contacte empresa taxis
+- [x] #boda Quantitat de persones per la paella
+- [x] #boda Vots [docs](https://docs.google.com/document/d/1pmRZo-nApYq264wO8IzgkAo4CUxvlVuAOJktz4RftPs/edit)
+- [x] #boda Transferència el Xaloc
+- [x] #boda Pagament restant al Xaloc
+- [x] Sanchez form
+- [x] Databricks costs control
+- [x] Watch: AWS Cost Alert DMP platform
+- [x] Bamboo HR: access details of reports
+- [x] Help Alicia with idempotency in LAL writer
+- [x] Finish estimation of SAS-12305
+- [x] #storyWrite  Deployment of Lookalikes V2 to production
+- [x] [SAS-12117](https://hybridtheory.atlassian.net/browse/SAS-12117) Insider trends time-series decomposition
+- [x] #review [SAS-12209](https://hybridtheory.atlassian.net/browse/SAS-12209) (Alicia) Sampling in Audience Insights
+- [ ] [RED-227](https://hybridtheory.atlassian.net/browse/RED-227) [[URL Scraping and IAB classification at volume]]
+- [ ] [[Leaving cookies behind]]
+- [x] #boda Pagament càtering
+- [x] Check MLFlow Pipelines [repo](https://github.com/mlflow/mlp-regression-template)
+- [x] #hort Anar a buscar enciams
+- [x] #hort Desbrossar
 
 %% kanban:settings
 ```
