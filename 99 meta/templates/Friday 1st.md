@@ -1,3 +1,4 @@
+- [ ] 07:00 Running
 - [ ] 07:30 Learning
 - [ ] 10:30 1-1 Eduardo
 - [ ] 11:00 RED Standup

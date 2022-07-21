@@ -1,6 +1,8 @@
+- [ ] 07:00 Running
 - [ ] 07:30 Learning
 - [ ] 11:00 RED Standup
 - [ ] 11:20 SAS Data Standup
 - [ ] 11:30 Team Meeting
-- [ ] 12:15 High Level Grooming
+- [ ] 12:30 High Level Grooming
+- [ ] 15:30 R&D Grooming
 - [ ] 16:15 Data Grooming

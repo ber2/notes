@@ -19,15 +19,12 @@ kanban-plugin: basic
 
 - [ ] #boda Fotografies
 - [ ] #boda Hotel cabanes als arbres (Andratx)
-- [ ] #boda Hotel Bombolles (Marta, Maria, Maria i Lluís)
 - [ ] #boda Hotel + restaurant Les Cols (Sant Esteve)
 - [ ] #boda Recompte wonderboxes
 
 
 ## Backlog Personal
 
-- [ ] Add PBT tech tale materials to Github
-- [ ] Add slides and materials for Streamlit tech talk
 - [ ] [[Diabetes ML]]
 - [ ] Blog post: Computing $\pi$ using MonteCarlo
 - [ ] Blog post: Docker builds
@@ -39,32 +36,40 @@ kanban-plugin: basic
 
 ## Backlog Work
 
+- [ ] Check [ScraperAPI](https://www.scraperapi.com/)
 - [ ] Write [[MinHash|Minhash Trick]] summary
-- [ ] Check out Grafana + Graphite for ML tracking
 - [ ] Check cost correlation with increase in the number of events
 - [ ] Estem mostrant més impressions amb l'augment de dades de sharethis per a EMEA
 - [ ] Correlació entre nombres d'events que ingerim, usuaris que arriben als segments i impressions que se serveixen
+- [ ] Remove DE & DS open positions from engineering blog
+- [ ] GoodData check
+- [ ] Add PBT tech tale materials to Github
+- [ ] Add Archival Datathon slides to github
+- [ ] Add slides and materials for Streamlit tech talk
 
 
 ## Todo
 
-- [ ] Rhys end-of-year feedback
-- [ ] #boda Viatge Islàndia
-- [ ] #hort Programador reg
-- [ ] Sanchez form June
+- [ ] Revisar Vacances Míriam
+- [ ] Check DS ML Databricks certificates [here](https://databricks.com/learn/certification/machine-learning-associate)
+- [ ] #storyWrite Experiments around GeoLift; talk to Helmi
+- [ ] Talk to Helmi about doing a GeoLift Experiment; report story to perform the experiment
+- [ ] Talk to Marçal and Lesley about moving the EMEA regional offsite date
+- [ ] Talk to Marçal about scraping
+- [ ] Lookalikes improvements: lookback, disabling inactive ones, etc.
 
 
 ## WIP
 
-- [ ] #techTale The Archival Datathon
-- [ ] [RED-255](https://hybridtheory.atlassian.net/browse/RED-255) The hotel problem
-- [ ] #review [RED-250](https://hybridtheory.atlassian.net/browse/RED-250) (Míriam) End-to-end Contextual IAB segments
+- [ ] DBA-54 Fix audience insights and run
 - [ ] [RED-221](https://hybridtheory.atlassian.net/browse/RED-221) Robyn / MMM end-to-end Business model: [[RED-221 Robyn Product Proposal]]
+- [ ] #review [RED-258](https://hybridtheory.atlassian.net/browse/RED-258) (Marçal) Safari users
 
 
 ## Done
 
 **Complete**
+- [x] Fill own half year review
 
 
 ***
@@ -338,6 +343,34 @@ kanban-plugin: basic
 - [x] Check MLFlow Pipelines [repo](https://github.com/mlflow/mlp-regression-template)
 - [x] #hort Anar a buscar enciams
 - [x] #hort Desbrossar
+- [x] #review [RED-250](https://hybridtheory.atlassian.net/browse/RED-250) (Míriam) End-to-end Contextual IAB segments
+- [x] Sanchez form June
+- [x] Check out Grafana + Graphite for ML tracking
+- [x] #techTale The Archival Datathon
+- [x] Approve Miriam's holiday requests
+- [x] #boda Hotel Bombolles (Marta, Maria, Maria i Lluís)
+- [x] Send Alberto H some food recommendations in Esparreguera
+- [x] [RED-255](https://hybridtheory.atlassian.net/browse/RED-255) The hotel problem [[Number of Distinct Values from a Sample]]
+- [x] #wontdo Rhys end-of-year feedback
+- [x] [SAS-12305](https://hybridtheory.atlassian.net/browse/SAS-12305) Validate Ingestion Pipeline VPC output
+- [x] Plan H1 Reviews for Eduardo & Míriam
+- [x] Signar conveni GIRES - Ajuntament
+- [x] #review [SAS-12115](https://hybridtheory.atlassian.net/browse/SAS-12115) (Alicia) events_sampled backfill
+- [x] Comprar cafè
+- [x] #review [RED-252](https://hybridtheory.atlassian.net/browse/RED-252) (Miriam) GeoLift methodology
+- [x] #storyWrite To research about [[Lightweight (Bayesian) Marketing Mix Modelling]]
+- [x] #boda Viatge Islàndia
+- [x] Reservar vacances
+- [x] Write to HR about honeymoon permission
+- [x] #hort Programador reg
+- [x] Feedback Half-year review: Jordi
+- [x] Ask Jordi and Alberto Huelamo for feedback
+- [x] Feedback Half-year review: Gorka
+- [x] Preparar Half-year review Eduardo [[2022-07-20 Eduardo Half-year Review]]
+- [x] Feedback Half-year review: Alberto Huelamo
+- [x] Feedback Half-year review: Patricia
+- [x] Read Ines' shared [docs](https://docs.google.com/document/d/1wCiy-4kGi8FdZQoFTUNYbaivHQ7E2Z7cpSrk6MvkTrg/edit) about [[Firmographic data]]
+- [x] #wontdo Feedback Half-year review: Julio
 
 %% kanban:settings
 ```

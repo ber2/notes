@@ -2,5 +2,6 @@
 - [ ] 07:30 Learning
 - [ ] 11:00 RED Standup
 - [ ] 11:20 SAS Data Standup
-- [ ] 11:30 Weekly Leads Meeting
-- [ ] 16:30 Data Grooming
+- [ ] 11:30 Team Meeting
+- [ ] 12:30 High Level Grooming
+- [ ] 16:15 Data Grooming
